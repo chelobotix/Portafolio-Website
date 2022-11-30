@@ -1,4 +1,5 @@
 /* mobile first */
+/* min-width: 400px */
 html {
   font-family: "Inter";
   font-size: 12px;
@@ -68,12 +69,15 @@ p {
 
 /* media queries */
 
-@media only screen and (max-width: 1200px) {
-  /*Tablets [601px -> 1200px]*/
-}
 @media only screen and (max-width: 600px) {
-  /*Big smartphones [426px -> 600px]*/
+  /*Tablets*/
 }
-@media only screen and (max-width: 425px) {
-  /*Small smartphones [325px -> 425px]*/
+@media only screen and (max-width: 960px) {
+  /*Small screens, laptops*/
+}
+@media only screen and (max-width: 1025px) {
+  /*Desktops, large screens*/
+}
+@media only screen and (max-width: 1201px) {
+  /*Extra large screens, TV*/
 }
