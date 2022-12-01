@@ -1,11 +1,17 @@
 /* mobile first */
+
 /* min-width: 400px */
+
 html {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
+}
+
+body {
+  width: 375px;
 }
 
 header {
@@ -65,19 +71,4 @@ p {
   fill: #505f79;
   padding-left: 1.6em;
   width: 2em;
-}
-
-/* media queries */
-
-@media only screen and (max-width: 600px) {
-  /*Tablets*/
-}
-@media only screen and (max-width: 960px) {
-  /*Small screens, laptops*/
-}
-@media only screen and (max-width: 1025px) {
-  /*Desktops, large screens*/
-}
-@media only screen and (max-width: 1201px) {
-  /*Extra large screens, TV*/
 }
