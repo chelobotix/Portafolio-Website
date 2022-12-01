@@ -23,6 +23,7 @@ header {
   padding-right: 3.5em;
 }
 
+h1,
 h2 {
   font-size: 3.4em;
   font-weight: 700;
@@ -39,10 +40,15 @@ p {
   width: 18em;
 }
 
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
 /* Classes */
 
 .primary_color {
-  color: #1e488f;
+  color: #36b37e;
 }
 
 .secondary_color {
@@ -65,10 +71,12 @@ p {
 .social_icons_container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .social-icon {
   fill: #505f79;
-  padding-left: 1.6em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
   width: 2em;
 }
