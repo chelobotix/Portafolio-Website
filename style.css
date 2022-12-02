@@ -17,6 +17,9 @@ body {
 article {
   margin-bottom: 3.5em;
   margin-top: 2em;
+  padding-bottom: 3em;
+  padding-top: 3em;
+  width: 375px;
 }
 
 header {
@@ -128,6 +131,10 @@ ul {
   padding-top: 1em;
 }
 
+.pt-4 {
+  padding-top: 4em;
+}
+
 .pb-1 {
   padding-bottom: 1em;
 }
@@ -147,8 +154,11 @@ ul {
 }
 
 .btn1:hover {
-  text-decoration: none;
-  color: #fff;
+  background-color: #36b37f;
+}
+
+.btn1:active {
+  background-color: #008552;
 }
 
 .headline {
@@ -178,7 +188,7 @@ ul {
 }
 
 .li_works {
-  padding: 1.2em;
+  padding: 2em;
   font-weight: 600;
   display: inline-block;
 }
@@ -191,4 +201,9 @@ ul {
 
 .p_about_me {
   width: 80%;
+}
+
+.ul_about_me {
+  padding-top: 5em;
+  padding-bottom: 8em;
 }
