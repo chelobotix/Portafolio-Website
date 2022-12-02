@@ -2,10 +2,11 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="images/programming-language.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse Portafolio Website Project</b></h3>
+  <h3><b>Marcelo Alarcon Barrenechea</b></h3>
+  <h3><b>Portafolio Website</b></h3>
 
 </div>
 
@@ -48,6 +49,8 @@
 
 - **[Mobile version first]**
 - **[Presentation section]**
+- **[Works section]**
+- **[About me section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
