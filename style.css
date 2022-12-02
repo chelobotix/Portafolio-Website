@@ -153,6 +153,10 @@ ul {
   font-size: 1.5em;
 }
 
+.btn1:enabled {
+  background-color: #36b37e;
+}
+
 .btn1:hover {
   background-color: #36b37f;
 }
@@ -205,5 +209,5 @@ ul {
 
 .ul_about_me {
   padding-top: 5em;
-  padding-bottom: 8em;
+  padding-bottom: 1em;
 }
