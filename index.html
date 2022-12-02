@@ -12,17 +12,15 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <img src="images/Welcome.png" alt="logo" />
+        <a href="index.html">
+          <img src="images/Welcome.png" alt="logo" />
+        </a>
       </nav>
       <nav>
         <img src="images/Union.png" alt="menu button" />
@@ -76,12 +74,14 @@
       <img src="images/arrow.png" alt="down arrow" />
     </div>
 
-    <section class="d-flex flex-column align-items-center">
+    <!-- Works Section -->
+
+    <section class="grid_5x1">
       <div>
         <h2 class="secondary_color">My Recent <br />Works</h2>
       </div>
 
-      <article class="d-flex flex-column align-items-center">
+      <article class="grid_5x1">
         <a href="#">
           <img src="images/Snapshoot Portfolio.png" alt="Tonic Website Snapshoot" />
         </a>
@@ -94,7 +94,7 @@
         <a class="btn1" href="#">See Projects</a>
       </article>
 
-      <article class="d-flex flex-column align-items-center">
+      <article class="grid_5x1">
         <a href="#">
           <img
             src="images/Snapshoot Portfolio-1.png"
@@ -111,7 +111,7 @@
         <a class="btn1" href="#">See Projects</a>
       </article>
 
-      <article class="d-flex flex-column align-items-center">
+      <article class="grid_5x1">
         <a href="#">
           <img src="images/Snapshoot Portfolio-2.png" alt="Tonic Website Snapshoot" />
         </a>
@@ -124,7 +124,7 @@
         <a class="btn1" href="#">See Projects</a>
       </article>
 
-      <article class="d-flex flex-column align-items-center">
+      <article class="grid_5x1">
         <a href="#">
           <img
             src="images/Snapshoot Portfolio-3.png"
@@ -142,51 +142,54 @@
       </article>
     </section>
 
+    <!-- About me Section -->
+
     <section class="d-flex flex-column align-items-center">
-      <div class="d-flex flex-column align-items-center about_me border mb-5">
-        <h2 class="pt-4 secondary_color">About Me</h2>
-        <p class="pt-4 pb-5 p_about_me tertiary_color">
+      <article class="d-flex flex-column align-items-center border about_me">
+        <h2 class="pt-1 secondary_color">About Me</h2>
+        <p class="pt-1 pb-1 p_about_me tertiary_color">
           I can help you build a product, feature or website. Look through some of my work and
           experience! If you like what you see and have a project you need coded, don't hestiate to
           contact me.
         </p>
-        <a class="btn1 mb-4" href="#">Get My Resume</a>
-      </div>
+        <a class="btn1 mb-1" href="#">Get My Resume</a>
+      </article>
 
-      <div class="d-flex flex-column align-items-center border mb-5">
-        <img class="pt-5 pb-5" src="images/Frame.png" alt="" />
-        <h2 class="pu-5 secondary_color">Languages</h2>
-        <ul class="d-flex justify-content-center mb-3">
-          <li class="li_works primary_color">Javascript</li>
-          <li class="li_works primary_color">Ruby</li>
-          <li class="li_works primary_color">Html</li>
-          <li class="li_works primary_color">Css</li>
-        </ul>
-      </div>
+      <ul>
+        <li class="d-flex flex-column align-items-center border mb-1">
+          <img class="pt-1 pb-1" src="images/Frame.png" alt="" />
+          <h2 class="pu-5 secondary_color">Languages</h2>
+          <ul class="d-flex justify-content-center flex-wrap mb-3">
+            <li class="li_works primary_color">Html</li>
+            <li class="li_works primary_color">Css</li>
+            <li class="li_works primary_color">Javascript</li>
+          </ul>
+        </li>
 
-      <div class="d-flex flex-column align-items-center border mb-5">
-        <img class="pt-5 pb-5" src="images/Group.png" alt="" />
-        <h2 class="pu-5 secondary_color">Frameworks</h2>
-        <ul class="d-flex justify-content-center flex-wrap mb-3">
-          <li class="li_works primary_color">Bootstrap</li>
-          <li class="li_works primary_color">Ruby on Rails</li>
-          <li class="li_works primary_color">RSpec</li>
-          <li class="li_works primary_color">Capybara</li>
-          <li class="li_works primary_color">Selenium</li>
-        </ul>
-      </div>
+        <li class="d-flex flex-column align-items-center border mb-1">
+          <img class="pt-1 pb-1" src="images/Group.png" alt="" />
+          <h2 class="secondary_color">Frameworks</h2>
+          <ul class="d-flex justify-content-center flex-wrap mb-1">
+            <li class="li_works primary_color">Bootstrap</li>
+            <li class="li_works primary_color">Ruby on Rails</li>
+            <li class="li_works primary_color">RSpec</li>
+            <li class="li_works primary_color">Capybara</li>
+            <li class="li_works primary_color">Selenium</li>
+          </ul>
+        </li>
 
-      <div class="d-flex flex-column align-items-center border mb-5">
-        <img class="pt-5 pb-5" src="images/skills.png" alt="" />
-        <h2 class="pu-5 secondary_color">Skills</h2>
-        <ul class="d-flex justify-content-center flex-wrap mb-3">
-          <li class="li_works primary_color">Codekit</li>
-          <li class="li_works primary_color">GitHub</li>
-          <li class="li_works primary_color">Codepen</li>
-          <li class="li_works primary_color">Gitlab</li>
-          <li class="li_works primary_color">Terminal</li>
-        </ul>
-      </div>
+        <li class="d-flex flex-column align-items-center border mb-1">
+          <img class="pt-1 pb-1" src="images/skills.png" alt="" />
+          <h2 class="pu-1 secondary_color">Skills</h2>
+          <ul class="d-flex justify-content-center flex-wrap mb-1">
+            <li class="li_works primary_color">Codekit</li>
+            <li class="li_works primary_color">GitHub</li>
+            <li class="li_works primary_color">Codepen</li>
+            <li class="li_works primary_color">Gitlab</li>
+            <li class="li_works primary_color">Terminal</li>
+          </ul>
+        </li>
+      </ul>
     </section>
   </body>
 </html>
