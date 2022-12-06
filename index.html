@@ -8,40 +8,42 @@
     <link rel="icon" type="image/x-icon" href="images/codeoutlinedprogrammingsigns_81143.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">
+    <header class="d-flex flex-column">
+      <div class="d-flex justify-space-between">
+        <div>
           <img src="images/Welcome.png" alt="logo" />
-        </a>
-      </nav>
-      <nav>
-        <img src="images/Union.png" alt="menu button" />
-      </nav>
+        </div>
+        <div>
+          <img src="images/Welcome.png" alt="logo" />
+        </div>
+      </div>
+      <div class="d-flex justify-space-between">
+        <nav>
+          <a href="index.html">
+            <img src="images/Welcome.png" alt="logo" />
+          </a>
+        </nav>
+        <nav>
+          <img class="img_menu" src="images/Union.png" alt="menu button" />
+        </nav>
+      </div>
     </header>
 
-    <section class="headline">
-      <div class="presentation_container">
-        <h1 class="secondary_color">Hey there. I'm Marcelo</h1>
-        <h2 class="primary_color">I'm a software developer</h2>
-      </div>
+    <section class="d-flex flex-column align-items-center justify-items-start section_heading">
+      <h1 class="secondary_color">
+        Hey there. I'm Marcelo <span class="primary_color"><br />I'm a software developer</span>
+      </h1>
+      <p class="secondary_color">
+        I can help you build a product , feature or website Look through some of my work and experience! If you like what you see
+        and have a project you need coded, don't hestiate to contact me.
+      </p>
 
-      <div>
-        <p class="secondary_color">
-          I can help you build a product , feature or website Look through some of my work and
-          experience! <br />If you like what you see and have a project you need coded, don't
-          hestiate to contact me.
-        </p>
-      </div>
-
-      <ul class="social_icons_container">
+      <ul class="d-flex justify-content-center align-items-center social_icons_container">
         <li>
           <a href="https://twitter.com/marcealarconb">
             <img class="social-icon" src="images/twitter.svg" alt="Twitter contact" />
@@ -68,104 +70,108 @@
           </a>
         </li>
       </ul>
-    </section>
 
-    <div class="d-flex justify-content-center">
-      <img src="images/arrow.png" alt="down arrow" />
-    </div>
+      <div class="d-flex justify-content-center">
+        <img src="images/arrow.png" alt="down arrow" />
+      </div>
+    </section>
 
     <!-- Works Section -->
 
-    <section class="grid_5x1">
-      <div>
-        <h2 class="secondary_color">My Recent <br />Works</h2>
+    <section class="section_works grid_works">
+      <div class="d-flex flex-column align-items-center">
+        <h2 class="secondary_color">My Recent Works</h2>
+        <img class="divider" src="images/Indicator.png" alt="divider" />
       </div>
 
-      <article class="grid_5x1 border">
-        <a href="#">
-          <img src="images/Snapshoot Portfolio.png" alt="Tonic Website Snapshoot" />
-        </a>
-        <h3 class="tertiary_color">Tonic</h3>
-        <ul class="d-flex">
-          <li class="li_works tertiary_color">CANOPY</li>
-          <li class="li_works tertiary_color">css</li>
-          <li class="li_works tertiary_color">Javascript</li>
-        </ul>
-        <a class="btn1" href="#">See Projects</a>
+      <article class="grid_article border">
+        <div class="d-flex flex-column align-items-center article_content">
+          <h3 class="tertiary_color">Multi-Post Stories Gain+Glory</h3>
+          <ul class="d-flex justify-content-evenly">
+            <li class="li_works tertiary_color">Ruby on rails</li>
+            <li class="li_works tertiary_color">css</li>
+            <li class="li_works tertiary_color">Javscript</li>
+            <li class="li_works tertiary_color">html</li>
+          </ul>
+          <button class="btn1" href="#">See Projects</button>
+        </div>
       </article>
 
-      <article class="grid_5x1 border">
-        <a href="#">
-          <img
-            src="images/Snapshoot Portfolio-1.png"
-            alt="Multi-Post Stories Gain+Glory Snapshoot"
-          />
-        </a>
-        <h3 class="tertiary_color">Multi-Post Stories Gain+Glory</h3>
-        <ul class="d-flex justify-content-center">
-          <li class="li_works tertiary_color">Ruby on Rails</li>
-          <li class="li_works tertiary_color">css</li>
-          <li class="li_works tertiary_color">Javascript</li>
-          <li class="li_works tertiary_color">html</li>
-        </ul>
-        <a class="btn1" href="#">See Projects</a>
+      <article class="grid_article border">
+        <div class="d-flex flex-column align-items-center article_content">
+          <h3 class="tertiary_color">Multi-Post Stories Gain+Glory</h3>
+          <ul class="d-flex justify-content-evenly">
+            <li class="li_works tertiary_color">Ruby on rails</li>
+            <li class="li_works tertiary_color">css</li>
+            <li class="li_works tertiary_color">Javscript</li>
+            <li class="li_works tertiary_color">html</li>
+          </ul>
+          <button class="btn1" href="#">See Projects</button>
+        </div>
       </article>
 
-      <article class="grid_5x1 border">
-        <a href="#">
-          <img src="images/Snapshoot Portfolio-2.png" alt="Tonic Website Snapshoot" />
-        </a>
-        <h3 class="tertiary_color">Tonic</h3>
-        <ul class="d-flex justify-content-between">
-          <li class="li_works tertiary_color">CANOPY</li>
-          <li class="li_works tertiary_color">css</li>
-          <li class="li_works tertiary_color">Javascript</li>
-        </ul>
-        <a class="btn1" href="#">See Projects</a>
+      <article class="grid_article border">
+        <div class="d-flex flex-column align-items-center article_content">
+          <h3 class="tertiary_color">Multi-Post Stories Gain+Glory</h3>
+          <ul class="d-flex justify-content-evenly">
+            <li class="li_works tertiary_color">Ruby on rails</li>
+            <li class="li_works tertiary_color">css</li>
+            <li class="li_works tertiary_color">Javscript</li>
+            <li class="li_works tertiary_color">html</li>
+          </ul>
+          <button class="btn1" href="#">See Projects</button>
+        </div>
       </article>
 
-      <article class="grid_5x1 border">
-        <a href="#">
-          <img
-            src="images/Snapshoot Portfolio-3.png"
-            alt="Multi-Post Stories Gain+Glory Snapshoot"
-          />
-        </a>
-        <h3 class="tertiary_color">Multi-Post Stories</h3>
-        <ul class="d-flex justify-content-center">
-          <li class="li_works tertiary_color">Ruby on Rails</li>
-          <li class="li_works tertiary_color">css</li>
-          <li class="li_works tertiary_color">Javascript</li>
-          <li class="li_works tertiary_color">html</li>
-        </ul>
-        <a class="btn1" href="#">See Projects</a>
+      <article class="grid_article border">
+        <div class="d-flex flex-column align-items-center article_content">
+          <h3 class="tertiary_color">Multi-Post Stories Gain+Glory</h3>
+          <ul class="d-flex justify-content-evenly">
+            <li class="li_works tertiary_color">Ruby on rails</li>
+            <li class="li_works tertiary_color">css</li>
+            <li class="li_works tertiary_color">Javscript</li>
+            <li class="li_works tertiary_color">html</li>
+          </ul>
+          <button class="btn1" href="#">See Projects</button>
+        </div>
       </article>
     </section>
 
     <!-- About me Section -->
 
-    <section class="d-flex flex-column align-items-center">
-      <article class="d-flex flex-column align-items-center about_me">
-        <h2 class="pt-1 secondary_color">About Me</h2>
-        <p class="pt-1 pb-1 p_about_me tertiary_color">
-          I can help you build a product, feature or website. Look through some of my work and
-          experience! If you like what you see and have a project you need coded, don't hestiate to
-          contact me.
-        </p>
-        <a class="btn1 mb-1" href="#">Get My Resume</a>
-      </article>
+    <section class="section_about_me d-flex flex-column align-items-center">
+      <h2 class="secondary_color">About Me</h2>
+      <p class="tertiary_color">
+        I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see
+        and have a project you need coded,<br />
+        don't hestiate to contact me.
+      </p>
+      <button class="btn1 btn_resume" href="#">Get My Resume</button>
 
       <ul class="d-flex flex-column">
         <li>
-          <article class="d-flex flex-column align-items-center border">
-            <img class="pt-4 pb-1" src="images/Frame.png" alt="" />
-            <h3 class="pu-5 secondary_color">Languages</h3>
-            <ul class="d-flex justify-content-center flex-wrap ul_about_me">
-              <li class="li_works primary_color">Javascript</li>
-              <li class="li_works primary_color">Ruby</li>
-              <li class="li_works primary_color">Html</li>
-              <li class="li_works primary_color">Css</li>
-            </ul>
+          <article class="d-flex flex-column align-items-center justify-content-between border article_card">
+            <div class="d-flex justify-content-center align-items-center img_card">
+              <img src="images/Frame.png" alt="Languages" />
+            </div>
+
+            <div class="d-flex flex-column align-items-center title_tag">
+              <h3 class="secondary_color mt-20">Languages</h3>
+              <ul class="d-flex justify-content-around align-items-center flex-wrap ul_about_me">
+                <div>
+                  <li class="li_works primary_color">Javascript</li>
+                </div>
+                <div>
+                  <li class="li_works primary_color">Ruby</li>
+                </div>
+                <div>
+                  <li class="li_works primary_color">HTML</li>
+                </div>
+                <div>
+                  <li class="li_works primary_color">CSS</li>
+                </div>
+              </ul>
+            </div>
           </article>
         </li>
 
