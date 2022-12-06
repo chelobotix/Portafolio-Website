@@ -112,11 +112,15 @@ ul {
   align-items: center;
 }
 
-.flex-wrap {
+.align-items-start {
+  align-items: flex-start;
+}
+
+.flex_wrap {
   flex-wrap: wrap;
 }
 
-.flex-grow {
+.flex_grow {
   flex-grow: 1;
 }
 
@@ -271,7 +275,7 @@ ul {
   background-image: url("images/bg-about-me.jpg ");
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% 85%;
+  background-size: 100% 88%;
 }
 
 .article_card {
@@ -297,8 +301,8 @@ ul {
 }
 
 .ul_about_me {
-  width: 271px;
   border-radius: 0px;
+  padding: 0px 30.5px;
 }
 
 .li_works {
@@ -309,4 +313,19 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-left: 12px;
+  padding-top: 12px;
+  letter-spacing: 6%;
+}
+
+.article_about_me h2 {
+  margin-bottom: -35px;
+}
+
+.article_about_me p {
+  margin-bottom: 35px;
+}
+
+.last_ul {
+  width: 320px;
 }

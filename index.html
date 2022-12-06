@@ -140,13 +140,15 @@
     <!-- About me Section -->
 
     <section class="section_about_me d-flex flex-column align-items-center">
-      <h2 class="secondary_color">About Me</h2>
-      <p class="tertiary_color">
-        I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see
-        and have a project you need coded,<br />
-        don't hestiate to contact me.
-      </p>
-      <button class="btn1 btn_resume" href="#">Get My Resume</button>
+      <article class="d-flex flex-column align-items-center justify-content-center article_about_me">
+        <h2 class="secondary_color">About Me</h2>
+        <p class="tertiary_color">
+          I can help you build a product, feature or website. Look through some of my work and experience! If you like what you
+          see and have a project you need coded,<br />
+          don't hestiate to contact me.
+        </p>
+        <button class="btn1 btn_resume" href="#">Get My Resume</button>
+      </article>
 
       <ul class="d-flex flex-column">
         <li>
@@ -157,49 +159,51 @@
 
             <div class="d-flex flex-column align-items-center title_tag">
               <h3 class="secondary_color mt-20">Languages</h3>
-              <ul class="d-flex justify-content-around align-items-center flex-wrap ul_about_me">
-                <div>
-                  <li class="li_works primary_color">Javascript</li>
-                </div>
-                <div>
-                  <li class="li_works primary_color">Ruby</li>
-                </div>
-                <div>
-                  <li class="li_works primary_color">HTML</li>
-                </div>
-                <div>
-                  <li class="li_works primary_color">CSS</li>
-                </div>
+              <ul class="d-flex justify-content-evenly ul_about_me">
+                <li class="li_works primary_color">Javascript</li>
+                <li class="li_works primary_color">Ruby</li>
+                <li class="li_works primary_color">HTML</li>
+                <li class="li_works primary_color">CSS</li>
               </ul>
             </div>
           </article>
         </li>
 
         <li>
-          <article class="d-flex flex-column align-items-center border">
-            <img class="pt-4 pb-1" src="images/Group.png" alt="" />
-            <h3 class="pu-5 secondary_color">Frameworks</h3>
-            <ul class="d-flex justify-content-center flex-wrap ul_about_me">
-              <li class="li_works primary_color">Bootstrap</li>
-              <li class="li_works primary_color">Ruby on Rails</li>
-              <li class="li_works primary_color">RSpec</li>
-              <li class="li_works primary_color">Capybara</li>
-              <li class="li_works primary_color">Selenium</li>
-            </ul>
+          <article class="d-flex flex-column align-items-center justify-content-between border article_card">
+            <div class="d-flex justify-content-center align-items-center img_card">
+              <img src="images/Group.png" alt="Frameworks" />
+            </div>
+
+            <div class="d-flex flex-column align-items-center title_tag">
+              <h3 class="secondary_color mt-20">Frameworks</h3>
+              <ul class="d-flex justify-content-evenly flex_wrap ul_about_me">
+                <li class="li_works primary_color">Bootstrap</li>
+                <li class="li_works primary_color">Ruby on rails</li>
+                <li class="li_works primary_color">RSpec</li>
+                <li class="li_works primary_color">Capybara</li>
+                <li class="li_works primary_color">Selenium</li>
+              </ul>
+            </div>
           </article>
         </li>
 
         <li>
-          <article class="d-flex flex-column align-items-center border">
-            <img class="pt-4 pb-1" src="images/skills.png" alt="" />
-            <h3 class="pu-5 secondary_color">Skills</h3>
-            <ul class="d-flex justify-content-center flex-wrap ul_about_me">
-              <li class="li_works primary_color">Codekit</li>
-              <li class="li_works primary_color">GitHub</li>
-              <li class="li_works primary_color">Codepen</li>
-              <li class="li_works primary_color">Gitlab</li>
-              <li class="li_works primary_color">Terminal</li>
-            </ul>
+          <article class="d-flex flex-column align-items-center justify-content-between border article_card">
+            <div class="d-flex justify-content-center align-items-center img_card">
+              <img src="images/skills.png" alt="Languages" />
+            </div>
+
+            <div class="d-flex flex-column align-items-center title_tag">
+              <h3 class="secondary_color mt-20">Skills</h3>
+              <ul class="d-flex justify-content-evenly flex_wrap ul_about_me last_ul">
+                <li class="li_works primary_color">Codekit</li>
+                <li class="li_works primary_color">GitHub</li>
+                <li class="li_works primary_color">Codepen</li>
+                <li class="li_works primary_color">Gitlab</li>
+                <li class="li_works primary_color">Terminal</li>
+              </ul>
+            </div>
           </article>
         </li>
       </ul>
