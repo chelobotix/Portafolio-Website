@@ -154,6 +154,18 @@ ul {
   background-color: #ebf0ee;
 }
 
+.quinary_color {
+  color: #42526e;
+}
+
+.sixth_color {
+  color: #344563;
+}
+
+.white_color {
+  background-color: #fff;
+}
+
 /* Buttons */
 
 .btn1 {
@@ -198,14 +210,13 @@ ul {
 
 .article_card {
   border-radius: 8px;
-  height: 352px;
+  height: 360px;
   width: 327px;
 }
 
 .article_content {
   border-radius: 8px;
   height: 222px;
-  padding: 16px;
   width: 327px;
 }
 
@@ -273,10 +284,6 @@ ul {
   letter-spacing: 0.03em;
   letter-spacing: 6%;
   line-height: 16px;
-  padding-left: 12px;
-  padding-top: 12px;
-  text-align: center;
-  width: 65px;
 }
 
 .mt-20 {
@@ -342,6 +349,13 @@ ul {
   margin-bottom: 72px;
 }
 
+.title_tag div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
 .ul_about_me {
   border-radius: 0;
   padding: 0 30.5px;
@@ -349,4 +363,14 @@ ul {
 
 .ul_w {
   width: 308px;
+}
+
+.article_content div {
+  padding: 8px 12px;
+}
+
+.article_content ul {
+  gap: 8px;
+  width: 305px;
+  height: 32px;
 }
