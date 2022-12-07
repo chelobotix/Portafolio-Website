@@ -150,6 +150,10 @@ ul {
   color: #3a4a42;
 }
 
+.quaternary_color {
+  background-color: #ebf0ee;
+}
+
 /* Buttons */
 
 .btn1 {
@@ -341,4 +345,8 @@ ul {
 .ul_about_me {
   border-radius: 0;
   padding: 0 30.5px;
+}
+
+.pb-20 {
+  margin-bottom: 24px;
 }
