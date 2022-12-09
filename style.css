@@ -1,7 +1,3 @@
-/* mobile first */
-
-/* min-width: 400px */
-
 html {
   font-family: "Inter", sans-serif;
   font-size: 12px;
@@ -10,7 +6,7 @@ html {
   line-height: 16px;
 }
 
-body {
+html body {
   height: 6715px;
   width: 375px;
   background-color: #fff;
@@ -20,7 +16,7 @@ body {
   justify-content: flex-start;
 }
 
-header {
+html body header {
   display: flex;
   justify-content: space-between;
   width: 375px;
@@ -28,46 +24,44 @@ header {
   margin-top: 44px;
 }
 
-/* headline section */
-
-.section_headline {
+html body .section_headline {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
   height: 626px;
   width: 375px;
-  padding: 64px 24px 0px 24px;
+  padding: 64px 24px 0 24px;
   background-image: url("images/header-illsutration-mobile@2x.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-.section_headline h1 {
+html body .section_headline h1 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #172b4d;
 }
 
-.section_headline h1 span {
+html body .section_headline h1 span {
   color: #36b37e;
 }
 
-.section_headline p {
+html body .section_headline p {
   width: 327px;
   height: 192px;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #172b4d;
 }
 
-.section_headline ul {
+html body .section_headline .headline_icon_container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -77,12 +71,12 @@ header {
   padding: 0;
 }
 
-.section_headline img {
+html body .section_headline .headline_icon_container li a .social_icon {
   height: 19px;
   width: 19px;
 }
 
-.section_headline div {
+html body .section_headline .div_arrow1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,21 +85,19 @@ header {
   padding-top: 50px;
 }
 
-.section_headline div > div {
+html body .section_headline .div_arrow1 .div_arrow2 {
   height: 40px;
   width: 40px;
   border-radius: 32px;
   padding: 8px;
 }
 
-.section_headline div img {
+html body .section_headline .div_arrow1 .div_arrow2 .arrow {
   height: 30px;
   width: 30px;
 }
 
-/* Works section  */
-
-.section_works {
+html body .section_works {
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto;
@@ -116,7 +108,7 @@ header {
   gap: 58px;
 }
 
-.recent_works_div {
+html body .section_works .recent_works_div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,23 +117,23 @@ header {
   gap: 24px;
 }
 
-.recent_works_div h2 {
+html body .section_works .recent_works_div h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   margin: 0;
   color: #172b4d;
 }
 
-.recent_works img {
+html body .section_works .recent_works_div img {
   height: 4px;
   width: 48px;
   border-radius: 24px;
 }
 
-.card_row {
+html body .section_works .card_row {
   display: grid;
   grid-template-rows: auto auto auto auto auto auto;
   grid-template-columns: auto;
@@ -152,7 +144,7 @@ header {
   padding: 4px 2px 4px 2px;
 }
 
-.card_row article {
+html body .section_works .card_row article {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,15 +156,14 @@ header {
   border-radius: 8px;
 }
 
-.card_row .placeholder {
+html body .section_works .card_row article .placeholder {
   height: 474px;
   width: 327px;
   border-radius: 8px;
   background: #ebf0ee;
-  border-radius: 8px;
 }
 
-.card_row .card_container {
+html body .section_works .card_row article .card_container1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -182,11 +173,11 @@ header {
   background-color: #fff;
 }
 
-.card_container h4 {
+html body .section_works .card_row article .card_container1 h4 {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #3a4a42;
   height: 57px;
@@ -194,7 +185,7 @@ header {
   border-radius: nullpx;
 }
 
-.card_container ul {
+html body .section_works .card_row article .card_container1 ul {
   display: flex;
   justify-content: center;
   height: 32px;
@@ -205,33 +196,32 @@ header {
   list-style-type: none;
 }
 
-.card_container ul > div {
+html body .section_works .card_row article .card_container1 ul div {
   align-items: center;
   border-radius: 4px;
   padding: 8px 12px 8px 12px;
   background: #ebf0ee;
 }
 
-.card_container ul > div > li {
+html body .section_works .card_row article .card_container1 ul div li {
   border-radius: nullpx;
   text-align: center;
   color: #3a4a42;
 }
 
-.card_container > .div_button {
+html body .section_works .card_row article .card_container1 .div_button {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 69px;
   width: 305px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
-.card_container > .div_button > button {
+html body .section_works .card_row article .card_container1 .div_button .btn_see_projects {
   height: 48px;
   width: 122px;
   border-radius: 4px;
-  padding: 12px;
   gap: 10px;
   background: #36b37f;
   border: none;
@@ -247,20 +237,18 @@ header {
   color: #fff;
 }
 
-/* about me section */
-
-.section_about_me {
+html body .section_about_me {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 1625px;
   width: 375px;
   border-radius: 0;
-  padding: 0px 24px 64px 24px;
+  padding: 0 24px 64px 24px;
   gap: 58px;
 }
 
-.article_about_me {
+html body .section_about_me .article_about_me {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -271,7 +259,7 @@ header {
   gap: 24px;
 }
 
-.bg_about_me1 {
+html body .section_about_me .article_about_me .bg_about_me1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,7 +272,26 @@ header {
   margin-top: 12px;
 }
 
-.bg_about_me2 {
+html body .section_about_me .article_about_me .bg_about_me1 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
+}
+
+html body .section_about_me .article_about_me p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #42526e;
+  margin-top: 0;
+}
+
+html body .section_about_me .article_about_me .bg_about_me2 {
   width: 399px;
   height: 300px;
   display: flex;
@@ -296,26 +303,7 @@ header {
   background-position: 16px;
 }
 
-.article_about_me h2 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #172b4d;
-}
-
-.article_about_me p {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #42526e;
-  margin-top: 0;
-}
-
-.article_about_me button {
+html body .section_about_me .article_about_me .bg_about_me2 .btn_resume {
   height: 48px;
   width: 159px;
   border-radius: 4px;
@@ -334,46 +322,20 @@ header {
   outline: inherit;
 }
 
-.ul_about_me {
-  height: 1106px;
-  width: 327px;
-  border-radius: 0;
-  padding: 1px;
-  gap: 24px;
-}
-
-.ul_about_me > li {
-  height: 352px;
-  width: 327px;
-  border-radius: 0px;
-}
-
-.icon_container {
-  height: 128px;
-  width: 327px;
-  border-radius: 0;
-}
-
-.icon_container div {
-  height: 80px;
-  width: 80px;
-  border-radius: 0px;
-}
-
-.section_about_me .card_container {
+html body .section_about_me .card_container2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 1106px;
   width: 327px;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 1px;
   list-style-type: none;
   gap: 24px;
   background: #ebf0ee;
 }
 
-.section_about_me .card_container .li_card_container_about {
+html body .section_about_me .card_container2 .li_card_container_about {
   display: flex;
   flex-direction: column;
   height: 352px;
@@ -383,22 +345,22 @@ header {
   background: #ebf0ee;
 }
 
-.section_about_me .card_container .li_card_container_about .icon {
+html body .section_about_me .card_container2 .li_card_container_about .icon {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 128px;
   width: 327px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
-.section_about_me .card_container .li_card_container_about .icon img {
+html body .section_about_me .card_container2 .li_card_container_about .icon img {
   height: 44px;
   width: 44px;
   padding: 18px;
 }
 
-.section_about_me .card_container .li_card_container_about .tittle {
+html body .section_about_me .card_container2 .li_card_container_about .tittle {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -409,35 +371,37 @@ header {
   gap: 24px;
 }
 
-.section_about_me .card_container .li_card_container_about .tittle h3 {
+html body .section_about_me .card_container2 .li_card_container_about .tittle h3 {
   height: 32px;
   width: 337px;
   border-radius: nullpx;
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #344563;
 }
 
-.section_about_me .card_container .li_card_container_about .tittle .tags {
+html body .section_about_me .card_container2 .li_card_container_about .tittle .tags {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   height: 40px;
   width: 304px;
   border-radius: 0;
   padding: 0;
   gap: 8px;
+  list-style-type: none;
 }
 
-.section_about_me .card_container .li_card_container_about .tittle .div_tags {
+html body .section_about_me .card_container2 .li_card_container_about .tittle .tags .div_tags {
   padding: 12px;
   background: #fff;
   border-radius: 8px;
 }
 
-.section_about_me .card_container .li_card_container_about .tittle .div_tags li {
+html body .section_about_me .card_container2 .li_card_container_about .tittle .tags .div_tags li {
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -445,3 +409,5 @@ header {
   text-align: left;
   color: #36b37e;
 }
+
+/*# sourceMappingURL=style2.css.map */
