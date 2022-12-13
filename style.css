@@ -411,53 +411,75 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 }
 
 .section-contact-form {
-
+  height: 879px;
+  width: 375px;
+  border-radius: 0;
+  padding: 64px 24px 64px 24px;
+  gap: 58px;
 }
 
 .section-contact-form .div-heading-form {
-
+  height: 363px;
+  width: 327px;
+  border-radius: 0;
+  padding: 0;
+  gap: 24px;
 }
 
 .section-contact-form .div-heading-form .heading-form {
-
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
 }
 
 .section-contact-form div .contact-form {
-
+  height: 330px;
+  width: 327px;
+  border-radius: 0;
+  padding: 0;
+  gap: 24px;
 }
 
 .section-contact-form div .contact-form div {
-
+  height: 48px;
+  width: 327px;
+  border-radius: 0;
 }
 
 .section-contact-form div .contact-form div fieldset {
-
 }
 
-.section-contact-form div .contact-form div fieldset input[type=text] {
-
+.section-contact-form div .contact-form div fieldset input[type="text"] {
+  height: 18px;
+  width: 295px;
+  border-radius: nullpx;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #8c776b;
 }
 
-.section-contact-form div .contact-form div fieldset input[type=email] {
-
+.section-contact-form div .contact-form div fieldset input[type="email"] {
 }
 
 .section-contact-form div .contact-form div fieldset textarea {
-
 }
 
 .section-contact-form div .contact-form div fieldset .btn-form {
-
 }
 
 .section-contact-form .contact-form-icons {
-
 }
 
 .email-footer {
-
 }
 
 .email-footer .heading-footer {
-
 }
+
+/* comment */
