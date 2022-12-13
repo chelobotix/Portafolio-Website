@@ -410,6 +410,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   color: #36b37e;
 }
 
+
 .section-contact-form {
   height: 879px;
   width: 375px;
@@ -465,12 +466,36 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 }
 
 .section-contact-form div .contact-form div fieldset input[type="email"] {
+height: 18px;
+width: 295px;
+border-radius: nullpx;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0;
+text-align: left;
+color: #6b778c;
 }
 
 .section-contact-form div .contact-form div fieldset textarea {
+height: 114px;
+width: 327px;
+border-radius: 0;
+
 }
 
-.section-contact-form div .contact-form div fieldset .btn-form {
+.section-contact-form div .contact-form div .btn-form {
+height: 48px;
+width: 129px;
+border-radius: 4px;
+padding: 12px;
+background: #36b37f;
+font-size: 17px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #fff;
 }
 
 .section-contact-form .contact-form-icons {
@@ -481,5 +506,3 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 
 .email-footer .heading-footer {
 }
-
-/* comment */
