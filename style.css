@@ -410,16 +410,6 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   color: #36b37e;
 }
 
-.section-contact-form {
-  margin-left: auto;
-  margin-right: auto;
-  height: 879px;
-  width: 375px;
-  border-radius: 0;
-  padding: 64px 24px 64px 24px;
-  gap: 58px;
-}
-
 .section-contact-form .div-heading-form {
   height: 363px;
   width: 327px;
@@ -469,6 +459,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
+  padding: 15px 16px;
 }
 
 .section-contact-form div .contact-form div fieldset input[type="text"]:hover {
@@ -491,6 +482,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
+  padding: 15px 16px;
 }
 
 .section-contact-form div .contact-form div fieldset input[type="email"]:hover {
@@ -513,6 +505,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
+  padding: 15px 16px;
 }
 
 .section-contact-form div .contact-form div fieldset textarea:hover {
@@ -549,10 +542,36 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 }
 
 .section-contact-form .contact-form-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 326px;
 }
 
 .email-footer {
+height: 189px;
+width: 375px;
+border-radius: nullpx;
+margin-top: 34px;
+margin-bottom: 115px;
 }
 
 .email-footer .heading-footer {
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+color: #42526E;
+}
+
+.rounded {
+  border-top: 8px solid black;
+  border-radius: 5px;
+  width: 35%;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
 }
