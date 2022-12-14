@@ -223,7 +223,6 @@ html body .section_works .card_row article .card_container1 .div_button .btn_see
   width: 122px;
   border-radius: 4px;
   gap: 10px;
-  background: #36b37f;
   border: none;
   padding: 0;
   font: inherit;
@@ -309,7 +308,6 @@ html body .section_about_me .article_about_me .bg_about_me2 .btn_resume {
   border-radius: 4px;
   padding: 12px;
   gap: 10px;
-  background: #36b37f;
   color: #fff;
   font-style: normal;
   font-weight: 500;
