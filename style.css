@@ -414,7 +414,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 879px;
+  height: 755px;
   width: 375px;
   border-radius: 0;
   padding: 0px 24px 64px 24px;
@@ -422,6 +422,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   background-image: url("images/illustration-contact-form.png");
   background-repeat: no-repeat;
   background-position: right bottom;
+  background-color: #fff;
 }
 
 .section-contact-form .div-heading-form {
@@ -464,6 +465,9 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 
 .section-contact-form .div_form_container .contact-form .div_field fieldset {
   border: 0;
+  padding: 0;
+  height: 48px;
+  width: 327px;
 }
 
 .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"] {
@@ -477,7 +481,15 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
-  padding: 15px 16px;
+}
+
+.filter::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #6b778c;
 }
 
 .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"]:hover {
@@ -500,7 +512,6 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
-  padding: 15px 16px;
 }
 
 .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"]:hover {
@@ -523,7 +534,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
-  padding: 15px 16px;
+  font-family: "Inter", sans-serif;
 }
 
 .section-contact-form .div_form_container .contact-form .div_field fieldset textarea:hover {
@@ -535,7 +546,11 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   border: 1px solid #60c095;
 }
 
-.section-contact-form .div_form_container .contact-form .div_field .btn-form {
+.section-contact-form .div_form_container .contact-form .divbtn_field {
+  margin-top: 68px;
+}
+
+.section-contact-form .div_form_container .contact-form .divbtn_field .btn-form {
   padding: 12px;
   gap: 10px;
   width: auto;
@@ -557,7 +572,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 .section-contact-form .contact-form-icons {
   display: flex;
   justify-content: center;
-  margin-top: 93px;
+  margin-top: -29px;
 }
 
 .section-contact-form .contact-form-icons .social_links {
@@ -576,7 +591,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   height: 189px;
   width: 375px;
   border-radius: nullpx;
-  margin-top: 34px;
+  margin-top: -28px;
   margin-bottom: 115px;
   margin-left: auto;
   margin-right: auto;
