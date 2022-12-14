@@ -49,6 +49,7 @@
 - **[Presentation section]**
 - **[Works section]**
 - **[About me section]**
+- **[Contact me]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,11 +84,16 @@ Clone this repository to your desired folder:
 - GitHub: [@chelobotix](https://github.com/chelobotix)
 - Linkedin: [Marcelo Alarcon](https://www.linkedin.com/in/marceloalarconb/)
 
+👤 **Author2**
+
+: Cedrich Mandeya
+
+- GitHub: [@chelobotix](https://github.com/ceddddy)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Contact form]**
 - [ ] **[Desktop version]**
 - [ ] **[Mobile menu]**
 
