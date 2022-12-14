@@ -424,6 +424,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   height: 363px;
   width: 327px;
   border-radius: 0;
+  margin-bottom: 58px;
   padding: 0;
   gap: 24px;
 }
@@ -460,19 +461,30 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 .section-contact-form div .contact-form div fieldset input[type="text"] {
   height: 48px;
   width: 327px;
-  border-radius: nullpx;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: #8c776b;
+  color: #6b778c;
+}
+
+.section-contact-form div .contact-form div fieldset input[type="text"]:hover {
+  border: 1px solid #60c095;
+}
+
+.section-contact-form div .contact-form div fieldset input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #60c095;
 }
 
 .section-contact-form div .contact-form div fieldset input[type="email"] {
   height: 48px;
   width: 327px;
-  border-radius: nullpx;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -481,16 +493,35 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   color: #6b778c;
 }
 
+.section-contact-form div .contact-form div fieldset input[type="email"]:hover {
+  border: 1px solid #60c095;
+}
+
+.section-contact-form div .contact-form div fieldset input[type="email"]:focus {
+  outline: none;
+  border: 1px solid #60c095;
+}
+
 .section-contact-form div .contact-form div fieldset textarea {
   height: 114px;
   width: 327px;
-  border-radius: 0;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
+}
+
+.section-contact-form div .contact-form div fieldset textarea:hover {
+  border: 1px solid #60c095;
+}
+
+.section-contact-form div .contact-form div fieldset textarea:focus {
+  outline: none;
+  border: 1px solid #60c095;
 }
 
 .section-contact-form div .contact-form div {
