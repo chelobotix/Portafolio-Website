@@ -440,7 +440,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 .section-contact-form div .contact-form {
   display: flex;
   flex-direction: column;
-  align-items: ;
+  align-items: center;
   height: 330px;
   width: 327px;
   border-radius: 0;
@@ -493,8 +493,13 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   color: #6b778c;
 }
 
+.section-contact-form div .contact-form div {
+  display: flex;
+  justify-content: center;
+}
+
 .section-contact-form div .contact-form div .btn-form {
-  height: 48px;
+  /* height: 48px;
   width: 129px;
   border-radius: 4px;
   padding: 12px;
@@ -504,7 +509,24 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: #fff; */
+  /*  */
+  padding: 12px;
+  gap: 10px;
+  width: auto;
+  height: auto;
+  bottom: 8px;
+  background: #36b37f;
+  border-radius: 4px;
   color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0;
 }
 
 .section-contact-form .contact-form-icons {
