@@ -417,7 +417,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   height: 755px;
   width: 375px;
   border-radius: 0;
-  padding: 0px 24px 64px 24px;
+  padding: 0 24px 64px 24px;
   gap: 58px;
   background-image: url("images/illustration-contact-form.png");
   background-repeat: no-repeat;
@@ -615,12 +615,6 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 .divider3 {
   display: flex;
   justify-content: center;
-}
-
-.rounded {
-  border-top: 3px solid #000000;
-  border-radius: 5px;
-  width: 50%;
 }
 
 .btn_effects {
