@@ -490,6 +490,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
+  padding-left: 16px;
 }
 
 .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"]:hover {
@@ -535,6 +536,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   text-align: left;
   color: #6b778c;
   font-family: "Inter", sans-serif;
+  padding-top: 12px;
 }
 
 .section-contact-form .div_form_container .contact-form .div_field fieldset textarea:hover {
@@ -552,6 +554,7 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 
 .section-contact-form .div_form_container .contact-form .divbtn_field .btn-form {
   padding: 12px;
+  margin-top: 12px;
   gap: 10px;
   width: auto;
   height: auto;
@@ -569,19 +572,14 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   cursor: pointer;
 }
 
-.section-contact-form .contact-form-icons {
-  display: flex;
-  justify-content: center;
-  margin-top: -29px;
-}
-
-.section-contact-form .contact-form-icons .social_links {
+.section-contact-form .contact-form .social_links {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style-type: none;
   gap: 20px;
   padding: 0;
+  margin-top: 0;
 }
 
 .email_footer {
@@ -591,10 +589,12 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   height: 189px;
   width: 375px;
   border-radius: nullpx;
-  margin-top: -28px;
-  margin-bottom: 115px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: 24px;
+}
+
+.link_email_footer {
+  text-decoration: none;
 }
 
 .email_footer .heading_footer {
