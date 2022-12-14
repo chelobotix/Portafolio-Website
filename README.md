@@ -6,7 +6,7 @@
   <br/>
 
   <h3><b>Marcelo Alarcon Barrenechea</b></h3>
-  <h3><b>Portafolio Website</b></h3>
+  <h3><b>Portfolio Website</b></h3>
 
 </div>
 
@@ -16,6 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Clone](#prerequisites)
@@ -24,8 +25,10 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-# 📖 [Marcelo Alarcon - Portafolio Website] <a name="about-project"></a>
+# 📖 Marcelo Alarcon - Portfolio Website <a name="about-project"></a>
 
 > A portfolio website is a unique way to showcase my work and let others know about myself. It's a website for my projects, skills, and information about me. In addition, it's one of the best ways to express my personality, experience, and capabilities.
 
@@ -49,8 +52,13 @@
 - **[Presentation section]**
 - **[Works section]**
 - **[About me section]**
+- **[Contact me]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+<a href="https://chelobotix.github.io/Portafolio-Website/">Visit the Live Demo</a>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -83,11 +91,16 @@ Clone this repository to your desired folder:
 - GitHub: [@chelobotix](https://github.com/chelobotix)
 - Linkedin: [Marcelo Alarcon](https://www.linkedin.com/in/marceloalarconb/)
 
+👤 **Author2**
+
+: Cedrich Mandeya
+
+- GitHub: [@ceddddy](https://github.com/ceddddy)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Contact form]**
 - [ ] **[Desktop version]**
 - [ ] **[Mobile menu]**
 
@@ -111,4 +124,26 @@ I would like to thank my mother. Let's play to the end together
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ❓ FAQ <a name="faq"></a>
+
+- **is there any restriction to put my name instead of the original author's name?**
+
+  - You can delete my name and put yours without any problem.
+
+- **[Can I change the original colors or assign a new color palette?
+]**
+
+  - [Yeah, no problem]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](<a href="https://github.com/chelobotix/Portafolio-Website/blob/add-contact-form/LICENSE.md">License</a>) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+

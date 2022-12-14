@@ -223,7 +223,6 @@ html body .section_works .card_row article .card_container1 .div_button .btn_see
   width: 122px;
   border-radius: 4px;
   gap: 10px;
-  background: #36b37f;
   border: none;
   padding: 0;
   font: inherit;
@@ -309,7 +308,6 @@ html body .section_about_me .article_about_me .bg_about_me2 .btn_resume {
   border-radius: 4px;
   padding: 12px;
   gap: 10px;
-  background: #36b37f;
   color: #fff;
   font-style: normal;
   font-weight: 500;
@@ -410,4 +408,225 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
   color: #36b37e;
 }
 
-/*# sourceMappingURL=style2.css.map */
+/* section contact form */
+
+.section-contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 755px;
+  width: 375px;
+  border-radius: 0;
+  padding: 0 24px 64px 24px;
+  gap: 58px;
+  background-image: url("images/illustration-contact-form.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: #fff;
+}
+
+.section-contact-form .div-heading-form {
+  height: 363px;
+  width: 327px;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 0;
+  gap: 24px;
+}
+
+.section-contact-form .div-heading-form .heading-form {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section-contact-form .div_form_container .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 330px;
+  width: 327px;
+  border-radius: 0;
+  padding: 0;
+  gap: 24px;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field {
+  width: 327px;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field fieldset {
+  border: 0;
+  padding: 0;
+  height: 48px;
+  width: 327px;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"] {
+  height: 48px;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #6b778c;
+}
+
+.filter::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #6b778c;
+  padding-left: 16px;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"]:hover {
+  border: 1px solid #60c095;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #60c095;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"] {
+  height: 48px;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #6b778c;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"]:hover {
+  border: 1px solid #60c095;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"]:focus {
+  outline: none;
+  border: 1px solid #60c095;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field fieldset textarea {
+  height: 114px;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #6b778c;
+  font-family: "Inter", sans-serif;
+  padding-top: 12px;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field fieldset textarea:hover {
+  border: 1px solid #60c095;
+}
+
+.section-contact-form .div_form_container .contact-form .div_field fieldset textarea:focus {
+  outline: none;
+  border: 1px solid #60c095;
+}
+
+.section-contact-form .div_form_container .contact-form .divbtn_field {
+  margin-top: 68px;
+}
+
+.section-contact-form .div_form_container .contact-form .divbtn_field .btn-form {
+  padding: 12px;
+  margin-top: 12px;
+  gap: 10px;
+  width: auto;
+  height: auto;
+  bottom: 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0;
+  cursor: pointer;
+}
+
+.section-contact-form .contact-form .social_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.email_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 189px;
+  width: 375px;
+  border-radius: nullpx;
+  margin-bottom: 100px;
+  margin-left: 24px;
+}
+
+.link_email_footer {
+  text-decoration: none;
+}
+
+.email_footer .heading_footer {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #42526e;
+}
+
+.rounded {
+  border-top: 8px solid black;
+  border-radius: 5px;
+  width: 35%;
+}
+
+.divider3 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_effects {
+  background: #36b37f;
+}
+
+.btn_effects:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+.btn_effects:active {
+  background: #008552;
+}
