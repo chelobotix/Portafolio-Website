@@ -18,10 +18,21 @@ html body {
 
 html body header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 375px;
   height: 48px;
   margin-top: 44px;
+}
+
+html body header .nav_bar_mobile {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  height: 48px;
+}
+
+html body .nav_bar_desktop {
+  display: none;
 }
 
 html body .section_headline {
@@ -629,4 +640,144 @@ html body .section_about_me .card_container2 .li_card_container_about .tittle .t
 
 .btn_effects:active {
   background: #008552;
+}
+
+/* ******************************media********************* */
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+  }
+
+  html body {
+    height: 3946px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  html body header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+  }
+
+  html body .nav_bar_mobile {
+    display: none;
+  }
+
+  html body .nav_bar_desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 1440px;
+    border-radius: 0;
+  }
+
+  html body .nav_bar_desktop .item_navigation_dsk {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 255px;
+    border-radius: 0;
+    gap: 10px;
+  }
+
+  html body .nav_bar_desktop .item_navigation_dsk nav {
+    height: 40px;
+    border-radius: 0;
+    padding: 10px 12px 10px 12px;
+  }
+
+  html body .nav_bar_desktop .item_navigation_dsk a {
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  html body .section_headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1434.3px;
+    border-radius: 0;
+    background-image: url("images/Header-llustration-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  html body .section_headline h1 {
+    height: 114px;
+    width: 100%;
+    border-radius: nullpx;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 125%;
+    letter-spacing: 0.37;
+    text-align: center;
+    color: #172b4d;
+    margin-top: 230px;
+  }
+
+  html body .section_headline h1 span {
+    color: #36b37e;
+  }
+
+  html body .section_headline p {
+    height: 96px;
+    width: 920px;
+    border-radius: nullpx;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: #172b4d;
+  }
+
+  html body .section_headline .headline_icon_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20px;
+    width: 170px;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  html body .section_headline .headline_icon_container li a .social_icon {
+    height: 19px;
+    width: 19px;
+  }
+
+  html body .section_headline .div_arrow1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 327px;
+    padding-top: 50px;
+  }
+
+  html body .section_headline .div_arrow1 .div_arrow2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 32px;
+    padding: 8px;
+  }
+
+  html body .section_headline .div_arrow1 .div_arrow2 .arrow {
+    height: 30px;
+    width: 30px;
+  }
 }
