@@ -948,6 +948,169 @@
     color: #fff;
   }
 
+  .bg_dsk {
+    background-image: url("images/illustration_about_me_desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1542px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  html body .bg_dsk .section_about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1171px;
+    height: 808px;
+    border-radius: 0;
+    padding: 80px 0;
+    gap: 48px;
+  }
+
+  html body .bg_dsk .section_about_me .article_about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 920px;
+    height: 240px;
+    border-radius: 0;
+    padding: 0;
+    gap: 24px;
+  }
+
+  html body .bg_dsk .section_about_me .article_about_me .bg_about_me1 h2 {
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  html body .bg_dsk .section_about_me .article_about_me p {
+    width: 920px;
+    height: 96px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+  }
+
+  html body .bg_dsk .section_about_me .article_about_me .bg_about_me2 .btn_resume {
+    height: 48px;
+    width: 160px;
+    border-radius: 4px;
+    padding: 12px;
+    gap: 10px;
+    color: #fff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+  }
+
+  html body .bg_dsk .section_about_me .card_container2 {
+    display: flex;
+    justify-content: center;
+    width: 1171px;
+    height: 360px;
+    padding: 4px 8px;
+    gap: 24px;
+    border-radius: 0;
+    list-style-type: none;
+  }
+
+  html body .bg_dsk .section_about_me .card_container2 .li_card_container_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 369px;
+    height: 352px;
+    border-radius: 8px;
+    border: 1px solid #c1c7d0;
+    background: #ebf0ee;
+  }
+
+  html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
+    width: 369px;
+    border-radius: 0;
+    margin-top: 16px;
+    margin-bottom: 40px;
+  }
+
+  html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .icon img {
+    height: 48px;
+    width: 48px;
+    padding: 24px 145px;
+  }
+
+  html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 337px;
+    height: 96px;
+    border-radius: 0;
+    padding: 0;
+    gap: 24px;
+  }
+
+  html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle h3 {
+    height: 32px;
+    width: 337px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #344563;
+  }
+
+  html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle .tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 304px;
+    height: 40px;
+    border-radius: 0;
+    padding: 0;
+    gap: 8px;
+    list-style-type: none;
+  }
+
+  html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle .tags .div_tags {
+    padding: 12px;
+    background: #fff;
+    border-radius: 8px;
+  }
+
+  html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle .tags .div_tags li {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #36b37e;
+  }
+
   .btn_effects {
     background: #36b37f;
   }
