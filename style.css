@@ -715,7 +715,7 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     text-decoration: none;
     color: #344563;
@@ -850,7 +850,7 @@
     height: 988px;
     width: 1171px;
     border-radius: 0;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
   }
 
@@ -881,11 +881,11 @@
     width: 369px;
     border-radius: 8px;
     gap: 16px;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   html body .section_works .card_row article .card_container1 h4 {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -923,7 +923,6 @@
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.03em;
-    text-align: left;
   }
 
   html body .section_works .card_row article .card_container1 .div_button {
@@ -942,7 +941,7 @@
     border-radius: 4px;
     gap: 10px;
     border: none;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     cursor: pointer;
     outline: inherit;
     font-style: normal;
@@ -986,7 +985,7 @@
   }
 
   html body .bg_dsk .section_about_me .article_about_me .bg_about_me1 h2 {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -1013,7 +1012,7 @@
     padding: 12px;
     gap: 10px;
     color: #fff;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1078,7 +1077,7 @@
   html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle h3 {
     height: 32px;
     width: 337px;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -1106,7 +1105,7 @@
   }
 
   html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle .tags .div_tags li {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -1134,7 +1133,7 @@
     width: 1171px;
     height: 490px;
     border-radius: 0;
-    padding: 80px 0px;
+    padding: 80px 0;
     gap: 24px;
   }
 
@@ -1150,7 +1149,7 @@
   }
 
   .section-contact-form .div-heading-form .heading-form {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -1242,6 +1241,7 @@
   .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_mob {
     display: none;
   }
+
   .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_dsk {
     height: 114px;
     width: 684px;
