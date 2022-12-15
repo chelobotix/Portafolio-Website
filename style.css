@@ -547,7 +547,7 @@
     border: 1px solid #60c095;
   }
 
-  .section-contact-form .div_form_container .contact-form .div_field fieldset textarea {
+  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_mob {
     height: 114px;
     width: 327px;
     border: 1px solid #d0d9d4;
@@ -562,11 +562,15 @@
     padding-top: 12px;
   }
 
-  .section-contact-form .div_form_container .contact-form .div_field fieldset textarea:hover {
+  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_dsk {
+    display: none;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_mob:hover {
     border: 1px solid #60c095;
   }
 
-  .section-contact-form .div_form_container .contact-form .div_field fieldset textarea:focus {
+  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_mob:focus {
     outline: none;
     border: 1px solid #60c095;
   }
@@ -953,6 +957,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 1542px;
+    height: 770px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -993,7 +998,6 @@
   html body .bg_dsk .section_about_me .article_about_me p {
     width: 920px;
     height: 96px;
-    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1109,6 +1113,194 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #36b37e;
+  }
+
+  /* section contact form */
+
+  .bg_dsk2 {
+    background-image: url("images/illustration_contact_form_desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 46px;
+    width: 1542px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-contact-form {
+    display: flex;
+    justify-content: center;
+    width: 1171px;
+    height: 490px;
+    border-radius: 0;
+    padding: 80px 0px;
+    gap: 24px;
+  }
+
+  .section-contact-form .div-heading-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 463px;
+    height: 256px;
+    border-radius: 0;
+    padding: 0;
+    gap: 24px;
+  }
+
+  .section-contact-form .div-heading-form .heading-form {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    color: #172b4d;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .section-contact-form .div_form_container .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 684px;
+    height: 330px;
+    border-radius: 0;
+    padding: 0;
+    gap: 24px;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field {
+    width: 684px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset {
+    border: 0;
+    padding: 0;
+    height: 48px;
+    width: 684px;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"] {
+    height: 48px;
+    width: 684px;
+    border: 1px solid #d0d9d4;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #6b778c;
+  }
+
+  .filter::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #6b778c;
+    padding-left: 16px;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"]:hover {
+    border: 1px solid #60c095;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"]:focus {
+    outline: none;
+    border: 1px solid #60c095;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"] {
+    height: 48px;
+    width: 684px;
+    border: 1px solid #d0d9d4;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #6b778c;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"]:hover {
+    border: 1px solid #60c095;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"]:focus {
+    outline: none;
+    border: 1px solid #60c095;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_mob {
+    display: none;
+  }
+  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_dsk {
+    height: 114px;
+    width: 684px;
+    border: 1px solid #d0d9d4;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #091e42;
+    font-family: "Inter", sans-serif;
+    padding-top: 12px;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset textarea:hover {
+    border: 1px solid #60c095;
+  }
+
+  .section-contact-form .div_form_container .contact-form .div_field fieldset textarea:focus {
+    outline: none;
+    border: 1px solid #60c095;
+  }
+
+  .section-contact-form .div_form_container .contact-form .divbtn_field {
+    margin-top: 68px;
+  }
+
+  .section-contact-form .div_form_container .contact-form .divbtn_field .btn-form {
+    padding: 12px;
+    margin-top: 12px;
+    gap: 10px;
+    width: 129px;
+    height: 48px;
+    bottom: 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .section-contact-form .contact-form .social_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+    margin-top: 190px;
+  }
+
+  .email_footer {
+    display: none;
   }
 
   .btn_effects {
