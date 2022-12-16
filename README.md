@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="images/programming-language.png" alt="logo" width="140"  height="auto" />
+  <img src="images/Logo Barrenechea.png" alt="logo" width="1032"  height="auto" />
   <br/>
 
   <h3><b>Marcelo Alarcon Barrenechea</b></h3>
@@ -48,11 +48,17 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Mobile version first]**
-- **[Presentation section]**
-- **[Works section]**
-- **[About me section]**
-- **[Contact me]**
+- **Mobile version**
+  - **Presentation section**
+  - **Works section**
+  - **About me section**
+  - **Contact me**
+
+ **Desktop version**
+  - **Presentation section**
+  - **Works section**
+  - **About me section**
+  - **Contact me**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +107,6 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Desktop version]**
 - [ ] **[Mobile menu]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -139,9 +144,9 @@ I would like to thank my mother. Let's play to the end together
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](<a href="https://github.com/chelobotix/Portafolio-Website/blob/add-contact-form/LICENSE.md">License</a>) licensed.
+This project is [MIT](<a href="https://github.com/chelobotix/Portafolio-Website/blob/main/LICENSE.md">License</a>) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+<a href="https://github.com/chelobotix/Portafolio-Website/blob/main/LICENSE.md">License</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
