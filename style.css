@@ -1296,6 +1296,12 @@
     cursor: pointer;
   }
 
+  .hr_dsk {
+    width: 186px;
+    margin-left: 0;
+    margin-top: 170px;
+  }
+
   .section-contact-form .contact-form .social_links {
     display: flex;
     justify-content: center;
@@ -1303,7 +1309,7 @@
     list-style-type: none;
     gap: 20px;
     padding: 0;
-    margin-top: 190px;
+    margin-top: -20px;
   }
 
   .email_footer {
