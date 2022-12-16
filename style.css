@@ -610,7 +610,7 @@
     cursor: pointer;
   }
 
-  .section-contact-form .contact-form .social_links {
+  .social_media_footer .social_links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -618,6 +618,10 @@
     gap: 20px;
     padding: 0;
     margin-top: 0;
+  }
+
+  .social_media_footer .hr_dsk {
+    display: none;
   }
 
   .email_footer {
@@ -1296,20 +1300,24 @@
     cursor: pointer;
   }
 
-  .hr_dsk {
-    width: 186px;
-    margin-left: 0;
-    margin-top: 170px;
+  .social_media_footer {
+    width: 1440px;
   }
 
-  .section-contact-form .contact-form .social_links {
+  .social_media_footer .hr_dsk {
+    width: 100%;
+    height: 1px;
+    background: #dfe1e6;
+  }
+
+  .social_media_footer .social_links {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style-type: none;
     gap: 20px;
     padding: 0;
-    margin-top: -20px;
+    margin-top: 20px;
   }
 
   .email_footer {
