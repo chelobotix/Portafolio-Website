@@ -881,7 +881,12 @@
     height: 474px;
     width: 369px;
     border-radius: 8px;
-    background: #ebf0ee;
+    background: #0f915d;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  html body .section_works .card_row article .placeholder:hover {
+    transform: scale(0.98);
   }
 
   html body .section_works .card_row article .card_container1 {
