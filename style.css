@@ -884,7 +884,7 @@
     background: #0f915d;
     transition: all 0.5s ease-in-out;
   }
-  
+
   html body .section_works .card_row article .placeholder:hover {
     transform: scale(0.98);
   }
@@ -1211,6 +1211,7 @@
     line-height: 24px;
     text-align: left;
     color: #6b778c;
+    transition: all 0.3s ease-in-out;
   }
 
   .filter::placeholder {
@@ -1225,6 +1226,7 @@
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"]:hover {
     border: 1px solid #60c095;
+    transform: translate(2px, 0);
   }
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"]:focus {
@@ -1243,10 +1245,12 @@
     line-height: 24px;
     text-align: left;
     color: #6b778c;
+    transition: all 0.3s ease-in-out;
   }
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"]:hover {
     border: 1px solid #60c095;
+    transform: translate(2px, 0);
   }
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"]:focus {
@@ -1271,10 +1275,12 @@
     color: #091e42;
     font-family: "Inter", sans-serif;
     padding-top: 12px;
+    transition: all 0.3s ease-in-out;
   }
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset textarea:hover {
     border: 1px solid #60c095;
+    transform: translate(2px, 0);
   }
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset textarea:focus {
