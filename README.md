@@ -49,12 +49,14 @@
 ### Key Features <a name="key-features"></a>
 
 - **Mobile version**
+
   - **Presentation section**
   - **Works section**
   - **About me section**
   - **Contact me**
 
- **Desktop version**
+  **Desktop version**
+
   - **Presentation section**
   - **Works section**
   - **About me section**
@@ -63,8 +65,8 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-<a href="https://chelobotix.github.io/Portafolio-Website/">Visit the Live Demo</a>
 
+<a href="">Visit the Live Demo</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -136,7 +138,7 @@ I would like to thank my mother. Let's play to the end together
   - You can delete my name and put yours without any problem.
 
 - **[Can I change the original colors or assign a new color palette?
-]**
+  ]**
 
   - [Yeah, no problem]
 
@@ -149,6 +151,3 @@ This project is [MIT](<a href="https://github.com/chelobotix/Portafolio-Website/
 <a href="https://github.com/chelobotix/Portafolio-Website/blob/main/LICENSE.md">License</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
