@@ -452,6 +452,40 @@
     justify-content: center;
   }
 
+  .hamburguer {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+  
+  .hamburguer ul {
+    list-style: none;
+    padding-top: 100px;
+    padding-bottom: 300px;
+  }
+  
+  .hamburguer li {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .hamburguer li a {
+    text-decoration: none;
+    color: #3a4a42;
+  }
+  
+  .hamburguer button {
+    float: right;
+    margin-top: 18px;
+    margin-right: 18px;
+  }
+
   .section-contact-form {
     display: flex;
     flex-direction: column;
