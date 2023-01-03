@@ -85,27 +85,27 @@
     animation: run ease 0.5s;
     animation-fill-mode: forwards;
   }
-  
+
   .run-out {
     animation: run-out ease 0.5s;
     animation-fill-mode: forwards;
   }
-  
+
   @keyframes run {
     0% {
       margin-left: -100%;
     }
-  
+
     100% {
       margin-left: 0%;
     }
   }
-  
+
   @keyframes run-out {
     0% {
       margin-left: 0%;
     }
-  
+
     100% {
       margin-left: -100%;
     }
