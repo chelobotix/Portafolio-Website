@@ -107,7 +107,7 @@ Clone this repository to your desired folder:
 
 - GitHub: [@ceddddy](https://github.com/ceddddy)
 
-: Jose
+: Jose Delphin
 
 - GitHub: [@adelphinsucasa](hhttps://github.com/adelphinsucasa)
 
