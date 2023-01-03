@@ -41,6 +41,7 @@
   <ul>
     <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
     <li><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/CSS">Javascript</a></li>
   </ul>
 </details>
 
@@ -50,6 +51,7 @@
 
 - **Mobile version**
 
+  - **Hamburger menu**
   - **Presentation section**
   - **Works section**
   - **About me section**
