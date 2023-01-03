@@ -107,11 +107,15 @@ Clone this repository to your desired folder:
 
 - GitHub: [@ceddddy](https://github.com/ceddddy)
 
+: Jose
+
+- GitHub: [@adelphinsucasa](hhttps://github.com/adelphinsucasa)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Mobile menu]**
+- [ ] **[Pop up windows on My Works section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
