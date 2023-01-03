@@ -32,10 +32,50 @@
     justify-content: space-between;
     width: 375px;
     height: 48px;
+    margin: 0 30px;
+  }
+
+  html body header .nav_bar_mobile .img_menu {
+    width: 25px;
   }
 
   html body .nav_bar_desktop {
     display: none;
+  }
+
+  .hamburguer {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    overflow: hidden;
+  }
+
+  .hamburguer ul {
+    list-style: none;
+    padding-top: 100px;
+    padding-bottom: 300px;
+  }
+
+  .hamburguer li {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 30px;
+  }
+
+  .hamburguer li a {
+    text-decoration: none;
+    color: #3a4a42;
+  }
+
+  .hamburguer button {
+    float: right;
+    margin-top: 18px;
+    margin-right: 18px;
   }
 
   html body .section_headline {
@@ -191,9 +231,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 250px;
-    width: 327px;
-    border-radius: 8px;
+    height: 246px;
+    width: 323px;
+    border-end-end-radius: 8px;
     background-color: #fff;
   }
 
@@ -264,6 +304,7 @@
     width: 375px;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
   }
 
   html body .section_about_me {
@@ -383,14 +424,12 @@
 
   html body .section_about_me .card_container2 .li_card_container_about .icon .icon_frame {
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
     background-color: #fff;
   }
 
   html body .section_about_me .card_container2 .li_card_container_about .icon img {
-    height: 44px;
-    width: 44px;
+    height: 80px;
+    width: 80px;
     padding: 18px;
   }
 
@@ -450,40 +489,6 @@
     width: 375px;
     display: flex;
     justify-content: center;
-  }
-
-  .hamburguer {
-    position: absolute;
-    width: 100%;
-    background-color: white;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  }
-  
-  .hamburguer ul {
-    list-style: none;
-    padding-top: 100px;
-    padding-bottom: 300px;
-  }
-  
-  .hamburguer li {
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: 0;
-    text-align: left;
-    margin-top: 30px;
-  }
-  
-  .hamburguer li a {
-    text-decoration: none;
-    color: #3a4a42;
-  }
-  
-  .hamburguer button {
-    float: right;
-    margin-top: 18px;
-    margin-right: 18px;
   }
 
   .section-contact-form {
@@ -770,6 +775,10 @@
     text-align: center;
     text-decoration: none;
     color: #344563;
+  }
+
+  .hamburguer {
+    display: none;
   }
 
   html body .section_headline {
