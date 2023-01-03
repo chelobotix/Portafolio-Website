@@ -20,5 +20,6 @@ for (let i = 0; i < hamburguerLink.length; i += 1) {
   hamburguerLink[i].addEventListener('click', () => {
     divHamburguer.classList.add('run-out');
     divHamburguer.classList.remove('run');
+    body.classList.remove('no-scroll');
   });
 }

@@ -65,6 +65,9 @@
   }
 
   .hamburguer ul {
+    position: absolute;
+    left: 0;
+    top: -27px;
     list-style: none;
     padding-top: 100px;
     padding-bottom: 300px;
