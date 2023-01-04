@@ -1,3 +1,13 @@
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+}
+
 .h3 {
   color: #3a4a42;
   font-size: 32px !important;
@@ -8,30 +18,20 @@
 }
 
 @media only screen and (max-width: 767px) {
-  html {
-    font-family: "Inter", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 16px;
-  }
-
   html body {
-    height: 6715px;
-    width: 375px;
     background-color: #fff;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin: auto;
     overflow-x: hidden;
   }
 
   html body header {
     display: flex;
     justify-content: center;
-    width: 375px;
+    width: 100%;
     height: 48px;
     margin-top: 44px;
   }
@@ -58,19 +58,15 @@
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: white;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    overflow: hidden;
+    background-color: #fff;
     margin-left: -100%;
   }
 
   .hamburguer ul {
-    position: absolute;
-    left: 0;
-    top: -27px;
     list-style: none;
-    padding-top: 100px;
-    padding-bottom: 300px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 10px;
   }
 
   .hamburguer li {
@@ -127,8 +123,8 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    height: 626px;
-    width: 375px;
+    height: auto;
+    width: 100%;
     padding-top: 64px;
     background-image: url("images/header-illsutration-mobile@2x.png");
     background-repeat: no-repeat;
@@ -139,6 +135,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   html body .section_headline .headline_container h1 {
@@ -159,7 +156,7 @@
   }
 
   html body .section_headline .headline_container .headline_p_mobile {
-    width: 327px;
+    width: 100%;
     height: 192px;
     font-size: 20px;
     font-weight: 400;
@@ -189,7 +186,7 @@
     justify-content: center;
     align-items: center;
     height: 48px;
-    width: 327px;
+    width: 100%;
     padding-top: 50px;
   }
 
@@ -206,12 +203,10 @@
   }
 
   html body .section_works {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto;
-    justify-content: center;
-    height: 3100px;
-    width: 375px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
     padding-bottom: 64px;
     gap: 58px;
   }
@@ -220,19 +215,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 125px;
-    width: 327px;
+    width: 100%;
     gap: 24px;
+    margin-top: 30px;
   }
 
   html body .section_works .recent_works_div h2 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0;
     text-align: center;
     margin: 0;
     color: #172b4d;
+    width: 100%;
   }
 
   html body .section_works .recent_works_div img {
@@ -242,14 +238,12 @@
   }
 
   html body .section_works .card_row {
-    display: grid;
-    grid-template-rows: auto auto auto auto auto auto;
-    grid-template-columns: auto;
-    justify-content: center;
-    height: 2972px;
-    width: 331px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
     border-radius: 0;
-    padding: 4px 2px 4px 2px;
   }
 
   html body .section_works .card_row article {
@@ -259,14 +253,12 @@
     justify-content: flex-end;
     background: #ebf0ee;
     border: 1px solid #d0d9d4;
-    height: 474px;
-    width: 327px;
+    width: 95%;
     border-radius: 8px;
   }
 
   html body .section_works .card_row article .placeholder {
-    height: 474px;
-    width: 327px;
+    width: 100%;
     border-radius: 8px;
     background: #ebf0ee;
   }
@@ -275,8 +267,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 246px;
-    width: 323px;
+    width: 100%;
     border-end-end-radius: 8px;
     background-color: #fff;
   }
@@ -345,18 +336,16 @@
   }
 
   html body .bg_dsk {
-    width: 375px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
   }
 
   html body .section_about_me {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1625px;
-    width: 325px;
+    width: 100%;
     border-radius: 0;
     padding: 0 24px 64px 24px;
     gap: 58px;
@@ -367,7 +356,7 @@
     flex-direction: column;
     align-items: center;
     height: 435px;
-    width: 325px;
+    width: 100%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
@@ -380,8 +369,8 @@
     background-image: url("images/illustration1.png");
     background-repeat: no-repeat;
     background-size: 15%;
-    background-position: 319px 2px;
-    width: 374px;
+    background-position: 100% 2px;
+    width: 105%;
     height: 94px;
     margin-top: 12px;
   }
@@ -406,7 +395,7 @@
   }
 
   html body .section_about_me .article_about_me .bg_about_me2 {
-    width: 374px;
+    width: 100%;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -439,8 +428,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1106px;
-    width: 327px;
+    width: 95vw;
     border-radius: 0;
     padding: 1px;
     list-style-type: none;
@@ -451,7 +439,7 @@
     display: flex;
     flex-direction: column;
     height: 352px;
-    width: 327px;
+    width: 100%;
     border-radius: 8px;
     border: 1px solid #c1c7d0;
     background: #ebf0ee;
@@ -462,7 +450,7 @@
     justify-content: center;
     align-items: center;
     height: 128px;
-    width: 327px;
+    width: 100%;
     border-radius: 0;
   }
 
@@ -482,7 +470,7 @@
     flex-direction: column;
     align-items: center;
     height: 96px;
-    width: 327px;
+    width: 100%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
@@ -490,7 +478,7 @@
 
   html body .section_about_me .card_container2 .li_card_container_about .tittle h3 {
     height: 32px;
-    width: 326px;
+    width: 100%;
     border-radius: nullpx;
     font-size: 24px;
     font-weight: 600;
@@ -530,7 +518,7 @@
   /* section contact form */
 
   html body .bg_dsk2 {
-    width: 375px;
+    width: 100%;
     display: flex;
     justify-content: center;
   }
@@ -540,7 +528,7 @@
     flex-direction: column;
     align-items: center;
     height: 768px;
-    width: 375px;
+    width: 95%;
     border-radius: 0;
     padding: 0 24px 64px 24px;
     gap: 58px;
@@ -552,7 +540,7 @@
 
   .section-contact-form .div-heading-form {
     height: 363px;
-    width: 327px;
+    width: 100%;
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
@@ -570,19 +558,23 @@
     margin-bottom: 0;
   }
 
+  .section-contact-form .div_form_container {
+    width: 100%;
+  }
+
   .section-contact-form .div_form_container .contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 360px;
-    width: 327px;
+    width: 100%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
   }
 
   .section-contact-form .div_form_container .contact-form .div_field {
-    width: 327px;
+    width: 100%;
     border-radius: 0;
     display: flex;
     justify-content: center;
@@ -592,12 +584,12 @@
     border: 0;
     padding: 0;
     height: auto;
-    width: 327px;
+    width: 100%;
   }
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"] {
     height: 44px;
-    width: 320px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-size: 15px;
@@ -629,7 +621,7 @@
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"] {
     height: 44px;
-    width: 320px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-size: 15px;
@@ -651,7 +643,7 @@
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_mob {
     height: 114px;
-    width: 320px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-size: 15px;
@@ -718,7 +710,7 @@
     justify-content: center;
     align-items: flex-start;
     height: 189px;
-    width: 375px;
+    width: 100%;
     border-radius: nullpx;
     margin-top: 20px;
   }
@@ -728,13 +720,13 @@
   }
 
   .email_footer .heading_footer {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0;
     text-align: center;
     color: #42526e;
-    width: 375px;
+    width: 100%;
   }
 
   .rounded {
