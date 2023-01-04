@@ -1,5 +1,5 @@
-// 20221201092052
-// https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css/.hintrc
+// 20230102151629
+// https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css-js/.hintrc
 
 {
   "connector": {
@@ -10,12 +10,5 @@
   },
   "extends": ["development"],
   "formatters": ["stylish"],
-  "hints": [
-    "button-type",
-    "disown-opener",
-    "html-checker",
-    "meta-charset-utf-8",
-    "meta-viewport",
-    "no-inline-styles:error"
-  ]
+  "hints": ["button-type", "disown-opener", "html-checker", "meta-charset-utf-8", "meta-viewport", "no-inline-styles:error"]
 }

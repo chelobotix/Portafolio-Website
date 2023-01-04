@@ -41,6 +41,7 @@
   <ul>
     <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
     <li><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/CSS">Javascript</a></li>
   </ul>
 </details>
 
@@ -50,6 +51,7 @@
 
 - **Mobile version**
 
+  - **Hamburger menu**
   - **Presentation section**
   - **Works section**
   - **About me section**
@@ -105,11 +107,15 @@ Clone this repository to your desired folder:
 
 - GitHub: [@ceddddy](https://github.com/ceddddy)
 
+: Jose Delphin
+
+- GitHub: [@adelphinsucasa](hhttps://github.com/adelphinsucasa)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Mobile menu]**
+- [ ] **[Pop up windows on My Works section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
