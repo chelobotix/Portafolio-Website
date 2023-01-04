@@ -8,6 +8,10 @@ html {
   justify-content: center;
 }
 
+* {
+  outline: 1px solid red;
+}
+
 .h3 {
   color: #3a4a42;
   font-size: 32px !important;
@@ -254,6 +258,7 @@ html {
     background: #ebf0ee;
     border: 1px solid #d0d9d4;
     width: 95%;
+    max-width: 354px;
     border-radius: 8px;
   }
 
@@ -758,23 +763,13 @@ html {
 /* ******************************media********************* */
 
 @media only screen and (min-width: 768px) {
-  html {
-    font-family: "Inter", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 16px;
-    overflow-x: hidden;
-  }
-
   html body {
-    width: 1440px;
-    height: 3620px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #6881e6;
     margin: auto;
-    color: #fff;
   }
 
   html body header {
@@ -782,7 +777,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    width: 500px;
     height: 72px;
     margin-top: 0;
   }
@@ -822,7 +817,7 @@ html {
     flex-direction: column;
     align-items: center;
     height: 1033px;
-    width: 1440px;
+    width: 100%;
     border-radius: 0;
     background-image: url("images/Header-llustration-desktop.svg");
     background-position: 38px -46px;
@@ -834,7 +829,7 @@ html {
     flex-direction: column;
     align-items: center;
     height: 756px;
-    width: 920px;
+    width: 100%;
     border-radius: 0;
     padding: 160px 0;
     gap: 24px;
@@ -842,7 +837,7 @@ html {
 
   html body .section_headline .headline_container h1 {
     height: 114px;
-    width: 920px;
+    width: 100%;
     border-radius: nullpx;
     font-size: 48px;
     font-weight: 800;
@@ -861,7 +856,7 @@ html {
   }
 
   html body .section_headline .headline_container .headline_p_desktop {
-    width: 920px;
+    width: 100%;
     height: 96px;
     font-size: 20px;
     font-weight: 400;
@@ -913,6 +908,7 @@ html {
     flex-direction: column;
     align-items: center;
     gap: 48px;
+    width: 100%;
   }
 
   html body .section_works .recent_works_div {
@@ -939,12 +935,10 @@ html {
   }
 
   html body .section_works .card_row {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    height: 988px;
-    width: 1171px;
+    width: 80%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
@@ -964,7 +958,7 @@ html {
 
   html body .section_works .card_row article .placeholder {
     height: 474px;
-    width: 369px;
+    width: 100%;
     border-radius: 8px;
     background: #ebf0ee;
   }
@@ -974,7 +968,7 @@ html {
     flex-direction: column;
     align-items: center;
     height: 222px;
-    width: 369px;
+    width: 100%;
     border-radius: 8px;
     gap: 16px;
     padding: 16px;
@@ -991,7 +985,7 @@ html {
     text-align: center;
     color: #172b4d;
     height: 57px;
-    width: 337px;
+    width: 100%;
     border-radius: nullpx;
     margin: 0;
   }
@@ -999,7 +993,7 @@ html {
   html body .section_works .card_row article .card_container1 ul {
     display: flex;
     justify-content: center;
-    width: 305px;
+    width: 100%;
     height: 32px;
     border-radius: 0;
     padding: 0;
@@ -1028,7 +1022,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 337px;
+    width: 100%;
     height: 69px;
     border-radius: 0;
     margin-bottom: 16px;
@@ -1054,7 +1048,7 @@ html {
     background-image: url("images/illustration_about_me_desktop.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 1433px;
+    width: 100%;
     height: 770px;
     display: flex;
     flex-direction: column;
@@ -1065,7 +1059,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1171px;
+    width: 100%;
     height: 808px;
     border-radius: 0;
     padding: 80px 0;
@@ -1076,7 +1070,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 920px;
+    width: 100%;
     height: 240px;
     border-radius: 0;
     padding: 0;
@@ -1095,7 +1089,7 @@ html {
   }
 
   html body .bg_dsk .section_about_me .article_about_me p {
-    width: 920px;
+    width: 100%;
     height: 96px;
     font-style: normal;
     font-weight: 400;
@@ -1128,7 +1122,7 @@ html {
   html body .bg_dsk .section_about_me .card_container2 {
     display: flex;
     justify-content: center;
-    width: 1171px;
+    width: 100%;
     height: 360px;
     padding: 4px 8px;
     gap: 24px;
@@ -1140,7 +1134,8 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 369px;
+    width: 30%;
+    max-width: 369px;
     height: 352px;
     border-radius: 8px;
     border: 1px solid #c1c7d0;
@@ -1152,7 +1147,7 @@ html {
     justify-content: center;
     align-items: center;
     height: 128px;
-    width: 369px;
+    width: 100%;
     border-radius: 0;
     margin-top: 16px;
     margin-bottom: 40px;
@@ -1171,14 +1166,13 @@ html {
   html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .icon .icon_frame img {
     height: 48px;
     width: 48px;
-    padding: 24px 24px;
   }
 
   html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 337px;
+    width: 100%;
     height: 96px;
     border-radius: 0;
     padding: 0;
@@ -1187,7 +1181,7 @@ html {
 
   html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle h3 {
     height: 32px;
-    width: 337px;
+    width: 100%;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -1233,7 +1227,7 @@ html {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 46px;
-    width: 1433px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1242,7 +1236,7 @@ html {
   .section-contact-form {
     display: flex;
     justify-content: center;
-    width: 1171px;
+    width: 100%;
     height: 490px;
     border-radius: 0;
     padding: 80px 0;
@@ -1253,7 +1247,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 463px;
+    width: 40%;
     height: 256px;
     border-radius: 0;
     padding: 0;
@@ -1271,19 +1265,23 @@ html {
     margin-bottom: 0;
   }
 
+  .section-contact-form .div_form_container {
+    width: 40%;
+    height: auto;
+  }
+
   .section-contact-form .div_form_container .contact-form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 684px;
-    height: 330px;
+    width: 100%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
   }
 
   .section-contact-form .div_form_container .contact-form .div_field {
-    width: 684px;
+    width: 90%;
     border-radius: 0;
     display: flex;
     justify-content: center;
@@ -1293,12 +1291,12 @@ html {
     border: 0;
     padding: 0;
     height: 48px;
-    width: 684px;
+    width: 100%;
   }
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"] {
     height: 48px;
-    width: 684px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-style: normal;
@@ -1330,7 +1328,7 @@ html {
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"] {
     height: 48px;
-    width: 684px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-style: normal;
@@ -1356,7 +1354,7 @@ html {
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_dsk {
     height: 114px;
-    width: 684px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-size: 15px;
@@ -1402,7 +1400,7 @@ html {
   }
 
   .social_media_footer {
-    width: 1440px;
+    width: 100%;
   }
 
   .social_media_footer .hr_dsk {

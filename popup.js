@@ -1,78 +1,64 @@
-const recent_works_obj = {
+const recentWorksObj = {
   name: 'Multi-Post Stories Gain+Glory',
   technologies: ['Ruby on Rails', 'css', 'Javascript', 'html'],
   imageURL_desktop: 'images/works-dsk.png',
-  imageURL_mobile: 'images/work-mobile.png'
-}
+  imageURL_mobile: 'images/work-mobile.png',
+};
 
 // Heading Section
-const section_works = document.querySelector('.section_works');
-const recent_works_div = document.createElement('div');
+const sectionWorks = document.querySelector('.section_works');
+const recentWorksDiv = document.createElement('div');
 const h2 = document.createElement('h2');
-const img = document.createElement('img');
 
-recent_works_div.classList.add('recent_works_div');
-h2.textContent = "My Recent Works"
-recent_works_div.appendChild(h2);
-section_works.appendChild(recent_works_div);
+recentWorksDiv.classList.add('recent_works_div');
+h2.textContent = 'My Recent Works';
+recentWorksDiv.appendChild(h2);
+sectionWorks.appendChild(recentWorksDiv);
 
 // Card Section
-const card_row = document.createElement('div');
+const cardRow = document.createElement('div');
 const article = document.createElement('article');
-const placeholder = document.createElement('img')
-const card_container1 = document.createElement('div');
+const placeholder = document.createElement('img');
+const cardContainer1 = document.createElement('div');
 const h4 = document.createElement('h4');
 const ul = document.createElement('ul');
-const button_div = document.createElement('div');
+const buttonDiv = document.createElement('div');
 const button = document.createElement('button');
 
-card_row.classList.add('card_row');
+cardRow.classList.add('card_row');
 placeholder.classList.add('placeholder');
-card_container1.classList.add('card_container1');
-button_div.classList.add('div_button');
+cardContainer1.classList.add('card_container1');
+buttonDiv.classList.add('div_button');
 button.classList.add('btn_see_projects');
 button.classList.add('btn_effects');
 
-if (window.matchMedia("(max-width: 767px)").matches) {
-  placeholder.src = recent_works_obj.imageURL_mobile
+if (window.matchMedia('(max-width: 767px)').matches) {
+  placeholder.src = recentWorksObj.imageURL_mobile;
 } else {
-  placeholder.src = recent_works_obj.imageURL_desktop
+  placeholder.src = recentWorksObj.imageURL_desktop;
 }
 
-h4.textContent = recent_works_obj.name
-button.textContent = "See Projects"
-button.type = "button"
+h4.textContent = recentWorksObj.name;
+button.textContent = 'See Projects';
+button.type = 'button';
 
-aux = ""
-for (let i = 0; i < 4; i++) {
-  aux += "<div><li>" + recent_works_obj.technologies[i] + "</li></div>"
+let aux = '';
+for (let i = 0; i < 4; i += 1) {
+  aux += `<div><li>${recentWorksObj.technologies[i]}</li></div>`;
 }
-ul.innerHTML = aux
-button_div.appendChild(button)
+ul.innerHTML = aux;
+buttonDiv.appendChild(button);
 
-for (let i = 0; i < 6; i++) {
-  articleAux = article.cloneNode()
-  card_container1Aux = card_container1.cloneNode(true)
+for (let i = 0; i < 6; i += 1) {
+  const articleAux = article.cloneNode();
+  const cardContainer1Aux = cardContainer1.cloneNode(true);
 
-  card_container1Aux.appendChild(h4.cloneNode(true))
-  card_container1Aux.appendChild(ul.cloneNode(true))
-  card_container1Aux.appendChild(button_div.cloneNode(true))
-  articleAux.appendChild(placeholder.cloneNode(true))
-  articleAux.appendChild(card_container1Aux)
-  card_row.appendChild(articleAux)
+  cardContainer1Aux.appendChild(h4.cloneNode(true));
+  cardContainer1Aux.appendChild(ul.cloneNode(true));
+  cardContainer1Aux.appendChild(buttonDiv.cloneNode(true));
+  articleAux.appendChild(placeholder.cloneNode(true));
+  articleAux.appendChild(cardContainer1Aux);
+  cardRow.appendChild(articleAux);
 }
 
-section_works.appendChild(card_row);
-
-
-
-
-
-
-
-
-
-
-
-
-
+sectionWorks.appendChild(cardRow);
