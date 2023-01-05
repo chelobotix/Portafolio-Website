@@ -121,13 +121,13 @@ const btnSeeProjects = document.querySelectorAll('.btn_see_projects');
 const btnClose2 = document.querySelector('.close');
 const blur = document.querySelector('.blur');
 const bodyTag = document.querySelector('body');
+const ulModal = document.querySelector('ul.modal-project');
 
 function createModal(index) {
   const imgModal = document.querySelector('img.modal-project');
   const h3Modal = document.querySelector('h3.modal-project');
   const btn1Modal = document.querySelectorAll('.modal-btn1');
   const btn2Modal = document.querySelectorAll('.modal-btn2');
-  const ulModal = document.querySelector('ul.modal-project');
   const pModal = document.querySelector('p.modal-project');
 
   if (window.matchMedia('(max-width: 767px)').matches) {
@@ -154,9 +154,11 @@ function createModal(index) {
     const newLi = document.createElement('li');
     newLi.textContent = tech;
     ulModal.appendChild(newLi);
+    newLi.classList.add('liModal');
   });
   if (window.matchMedia('(max-width: 767px)').matches) {
     ulModal.removeChild(ulModal.lastChild);
+    btnClose2.innerHTML = '&nbsp;';
   } else {
     btnClose2.textContent = 'X';
   }
@@ -167,7 +169,6 @@ function createModal(index) {
 function showModal() {
   blur.classList.remove('invisible');
   bodyTag.style.overflow = 'hidden';
-
 }
 
 btnSeeProjects.forEach((btn, index) => {
@@ -180,4 +181,5 @@ btnSeeProjects.forEach((btn, index) => {
 btnClose2.addEventListener('click', () => {
   blur.classList.add('invisible');
   bodyTag.style.overflow = 'auto';
+  ulModal.innerHTML = '';
 });

@@ -54,6 +54,7 @@
   - **Hamburger menu**
   - **Presentation section**
   - **Works section**
+    - **PopUp info about projects**
   - **About me section**
   - **Contact me**
 
@@ -61,6 +62,7 @@
 
   - **Presentation section**
   - **Works section**
+    - **PopUp info about projects**
   - **About me section**
   - **Contact me**
 
@@ -107,6 +109,8 @@ Clone this repository to your desired folder:
 
 - GitHub: [@ceddddy](https://github.com/ceddddy)
 
+👤 **Author3**
+
 : Jose Delphin
 
 - GitHub: [@adelphinsucasa](hhttps://github.com/adelphinsucasa)
@@ -115,7 +119,8 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Pop up windows on My Works section]**
+- [ ] **[Validation Form with Javascript]**
+- [ ] **[Preserve Data]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
