@@ -8,10 +8,6 @@ html {
   justify-content: center;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 .h3 {
   color: #3a4a42;
   font-size: 32px !important;
@@ -19,6 +15,10 @@ html {
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
+}
+
+.invisible {
+  display: none;
 }
 
 @media only screen and (max-width: 767px) {
@@ -758,6 +758,113 @@ html {
   .btn_effects:active {
     background: #008552;
   }
+
+  .blur {
+    background: #c1c7d0;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    padding: 20px 16px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .blur div.modal-project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #fff;
+    gap: 12px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    overflow: scroll;
+    height: 500px;
+  }
+
+  .blur div.modal-project .close {
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .blur div.modal-project img.modal-project {
+    width: 100%;
+  }
+
+  .blur div.modal-project h3.modal-project {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #172b4d;
+    width: 259px;
+    height: 135px;
+    padding-right: 18px;
+  }
+
+  .blur div.modal-project .modal-dsk {
+    display: none;
+  }
+
+  .blur div.modal-project .modal-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .blur div.modal-project .modal-btn-div .modal-btn1,
+  .blur div.modal-project .modal-btn-div .modal-btn2 {
+    background: #36b37f;
+    border-radius: 4px;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+  .blur div.modal-project .modal-btn-div .bi {
+    padding-left: 15px;
+  }
+
+  .blur div.modal-project ul.modal-project {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    gap: 8px;
+  }
+
+  .blur div.modal-project ul.modal-project li {
+    background-color: #ebf0ee;
+    padding: 8px 12px;
+    color: #3a4a42;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .blur div.modal-project p.modal-project {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: justify;
+  }
 }
 
 /* ******************************media********************* */
@@ -768,7 +875,6 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #6881e6;
     margin: auto;
   }
 
@@ -1461,11 +1567,8 @@ html {
   }
 
   .blur div.modal-project .close {
-    position: absolute;
-    top: 45px;
-    right: 40px;
-    width: 30px;
-    height: 30px;
+    align-self: flex-end;
+    font-size: 20px;
   }
 
   .blur div.modal-project img.modal-project {

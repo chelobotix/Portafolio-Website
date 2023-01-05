@@ -119,6 +119,8 @@ sectionWorks.appendChild(cardRow);
 
 const btnSeeProjects = document.querySelectorAll('.btn_see_projects');
 const btnClose2 = document.querySelector('.close');
+const blur = document.querySelector('.blur');
+const bodyTag = document.querySelector('body');
 
 function createModal(index) {
   const imgModal = document.querySelector('img.modal-project');
@@ -156,18 +158,16 @@ function createModal(index) {
   if (window.matchMedia('(max-width: 767px)').matches) {
     ulModal.removeChild(ulModal.lastChild);
   } else {
-    btnClose2.textContent = 'xddddddddddddd';
+    btnClose2.textContent = 'X';
   }
 
   pModal.textContent = recentWorksObj[index].description;
 }
 
 function showModal() {
-  const blur = document.querySelector('.blur');
-  const body = document.querySelector('body');
-
-  body.style.overflow = 'hidden';
   blur.classList.remove('invisible');
+  bodyTag.style.overflow = 'hidden';
+
 }
 
 btnSeeProjects.forEach((btn, index) => {
@@ -175,4 +175,9 @@ btnSeeProjects.forEach((btn, index) => {
     createModal(index);
     showModal();
   });
+});
+
+btnClose2.addEventListener('click', () => {
+  blur.classList.add('invisible');
+  bodyTag.style.overflow = 'auto';
 });
