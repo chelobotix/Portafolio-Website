@@ -57,6 +57,7 @@
     - **PopUp info about projects**
   - **About me section**
   - **Contact me**
+  - **JS form validation**
 
   **Desktop version**
 
@@ -65,6 +66,7 @@
     - **PopUp info about projects**
   - **About me section**
   - **Contact me**
+  - **JS form validation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +121,6 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Validation Form with Javascript]**
 - [ ] **[Preserve Data]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
