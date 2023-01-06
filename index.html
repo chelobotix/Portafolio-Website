@@ -231,19 +231,28 @@
           <form id="contact-form" class="contact-form" action="https://formspree.io/f/xzbwnlee" method="post">
             <div class="div_field">
               <fieldset>
-                <input class="filter" type="text" placeholder="Fullname" maxlength="30" required />
+                <input
+                  id="full-name"
+                  name="full_name"
+                  class="filter"
+                  type="text"
+                  placeholder="Fullname"
+                  maxlength="30"
+                  required
+                />
               </fieldset>
             </div>
 
             <div class="div_field">
               <fieldset>
-                <input class="filter" name="email" type="email" placeholder="Email address" required />
+                <input id="email" class="filter" name="email" type="email" placeholder="Email address" required />
               </fieldset>
             </div>
 
             <div class="div_field">
               <fieldset>
                 <textarea
+                  id="message"
                   class="filter txtarea_dsk"
                   name="comment"
                   placeholder="Typing something"
@@ -289,9 +298,7 @@
       </a>
     </section>
 
-
     <hr class="rounded" />
-
 
     <!-- Modal -->
     <div class="blur invisible">
@@ -301,14 +308,14 @@
         <div class="dsk-pos">
           <h3 class="modal-project"></h3>
           <div class="modal-btn-div modal-dsk">
-            <button type="button" class="modal-btn1 btn_effects">See Live<i class="bi bi-box-arrow-up-right"></i></i></button>
+            <button type="button" class="modal-btn1 btn_effects">See Live<i class="bi bi-box-arrow-up-right"></i></button>
             <button type="button" class="modal-btn2 btn_effects">See Source<i class="bi bi-github"></i></button>
           </div>
         </div>
         <ul class="modal-project"></ul>
         <p class="modal-project"></p>
         <div class="modal-btn-div modal-mobile">
-          <button type="button" class="modal-btn1 btn_effects">See Live<i class="bi bi-box-arrow-up-right"></i></i></button>
+          <button type="button" class="modal-btn1 btn_effects">See Live<i class="bi bi-box-arrow-up-right"></i></button>
           <button type="button" class="modal-btn2 btn_effects">See Source<i class="bi bi-github"></i></button>
         </div>
       </div>
@@ -317,5 +324,6 @@
     <script src="hamburguer.js"></script>
     <script src="popup.js"></script>
     <script src="formValidation.js"></script>
+    <script src="localStorage.js"></script>
   </body>
 </html>
