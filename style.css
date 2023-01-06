@@ -646,7 +646,7 @@ html {
     border: 1px solid #60c095;
   }
 
-  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_mob {
+  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_dsk {
     height: 114px;
     width: 100%;
     border: 1px solid #d0d9d4;
@@ -661,21 +661,19 @@ html {
     padding-top: 12px;
   }
 
-  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_dsk {
-    display: none;
-  }
-
-  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_mob:hover {
+  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_dsk:hover {
     border: 1px solid #60c095;
   }
 
-  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_mob:focus {
+  .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_dsk:focus {
     outline: none;
     border: 1px solid #60c095;
   }
 
   .section-contact-form .div_form_container .contact-form .divbtn_field {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .section-contact-form .div_form_container .contact-form .divbtn_field .btn-form {
@@ -696,6 +694,12 @@ html {
     cursor: pointer;
   }
 
+  .section-contact-form .div_form_container .contact-form .divbtn_field small {
+    color: red;
+    font-size: 12px;
+    padding: 10px 0 30px 0;
+  }
+
   .social_media_footer .social_links {
     display: flex;
     justify-content: center;
@@ -703,7 +707,7 @@ html {
     list-style-type: none;
     gap: 20px;
     padding: 0;
-    margin-top: 0;
+    margin-top: 20px;
   }
 
   .social_media_footer .hr_dsk {
@@ -1490,7 +1494,7 @@ html {
     flex-direction: column;
   }
 
-  .section-contact-form .div_form_container .contact-form .divbtn_field small{
+  .section-contact-form .div_form_container .contact-form .divbtn_field small {
     color: red;
     font-size: 14px;
     padding: 10px;
