@@ -10,7 +10,7 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
 
   if (!hasLowerCase(email.value)) {
-    errMsg.innerHTML = 'The Email content should be in lowercase';
+    errMsg.innerHTML = 'The Email content should be in lowercase.<br>The form was not send.';
   } else {
     form.submit();
   }
