@@ -768,6 +768,7 @@ html {
     position: fixed;
     top: 0;
     width: 100vw;
+    height: 100vh;
     box-sizing: border-box;
   }
 
@@ -781,7 +782,7 @@ html {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     overflow: scroll;
-    height: 500px;
+    height: auto;
   }
 
   .blur div.modal-project .close {
@@ -815,6 +816,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
     gap: 12px;
     margin-bottom: 20px;
   }
@@ -831,6 +833,7 @@ html {
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
+    white-space: nowrap;
   }
 
   .blur div.modal-project .modal-btn-div .bi {
@@ -1555,7 +1558,9 @@ html {
   }
 
   .blur div.modal-project {
-    width: 800px;
+    width: 920px;
+    min-width: 920px;
+    height: 1083px;
     display: flex;
     flex-direction: column;
     padding: 16px;
@@ -1573,11 +1578,15 @@ html {
 
   .blur div.modal-project img.modal-project {
     width: 100%;
+    border: 1px solid #dfe1e6;
+    border-radius: 8px;
   }
 
   .blur div.modal-project .dsk-pos {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
   }
 
   .blur div.modal-project h3.modal-project {
@@ -1586,7 +1595,7 @@ html {
     line-height: 44px;
     text-align: left;
     color: #172b4d;
-    width: 65%;
+    width: 58%;
   }
 
   .blur div.modal-project .modal-mobile {
@@ -1630,7 +1639,7 @@ html {
   .blur div.modal-project ul.modal-project .liModal {
     background-color: #ebf0ee;
     padding: 8px 12px;
-    color: #3a4a42;
+    color: #344563;
     border-radius: 4px;
     font-size: 12px;
     font-weight: 600;
@@ -1645,5 +1654,6 @@ html {
     line-height: 24px;
     letter-spacing: 0;
     text-align: justify;
+    color: #344563;
   }
 }
