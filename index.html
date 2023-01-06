@@ -228,7 +228,7 @@
         </div>
 
         <div class="div_form_container">
-          <form class="contact-form" action="https://formspree.io/f/xzbwnlee" method="post">
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/xzbwnlee" method="post">
             <div class="div_field">
               <fieldset>
                 <input class="filter" type="text" placeholder="Fullname" maxlength="30" required />
@@ -237,19 +237,12 @@
 
             <div class="div_field">
               <fieldset>
-                <input class="filter" type="email" placeholder="Email address" required />
+                <input class="filter" name="email" type="email" placeholder="Email address" required />
               </fieldset>
             </div>
 
             <div class="div_field">
               <fieldset>
-                <textarea
-                  class="filter txtarea_mob"
-                  name="comment"
-                  placeholder="Enter text here"
-                  maxlength="500"
-                  required
-                ></textarea>
                 <textarea
                   class="filter txtarea_dsk"
                   name="comment"
@@ -261,7 +254,8 @@
             </div>
 
             <div class="divbtn_field">
-              <button class="btn-form btn_effects" type="submit">Get in touch</button>
+              <button class="btn-form btn_effects" type="submit" name="btnSubmit">Get in touch</button>
+              <small id="errMsg"></small>
             </div>
           </form>
         </div>
@@ -322,5 +316,6 @@
 
     <script src="hamburguer.js"></script>
     <script src="popup.js"></script>
+    <script src="formValidation.js"></script>
   </body>
 </html>

@@ -1486,6 +1486,14 @@ html {
 
   .section-contact-form .div_form_container .contact-form .divbtn_field {
     margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-contact-form .div_form_container .contact-form .divbtn_field small{
+    color: red;
+    font-size: 14px;
+    padding: 10px;
   }
 
   .section-contact-form .div_form_container .contact-form .divbtn_field .btn-form {
