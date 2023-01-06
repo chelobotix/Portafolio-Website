@@ -162,6 +162,6 @@ I would like to thank my mother. Let's play to the end together
 
 This project is [MIT](<a href="https://github.com/chelobotix/Portafolio-Website/blob/main/LICENSE.md">License</a>) licensed.
 
-<a href="https://github.com/chelobotix/Portafolio-Website/blob/main/LICENSE.md">License</a>
+<a href="https://github.com/chelobotix/Portafolio-Website/blob/local-storage/LICENSE.md">License</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
