@@ -58,6 +58,7 @@
   - **About me section**
   - **Contact me**
   - **JS form validation**
+  - **LocalStorage data for Contact Form**
 
   **Desktop version**
 
@@ -67,6 +68,7 @@
   - **About me section**
   - **Contact me**
   - **JS form validation**
+  - **LocalStorage data for Contact Form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +123,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Preserve Data]**
+- [ ] **Tablet Responsive Desing**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,6 +162,6 @@ I would like to thank my mother. Let's play to the end together
 
 This project is [MIT](<a href="https://github.com/chelobotix/Portafolio-Website/blob/main/LICENSE.md">License</a>) licensed.
 
-<a href="https://github.com/chelobotix/Portafolio-Website/blob/main/LICENSE.md">License</a>
+<a href="https://github.com/chelobotix/Portafolio-Website/blob/local-storage/LICENSE.md">License</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
