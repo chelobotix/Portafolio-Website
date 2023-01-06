@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -113,158 +114,7 @@
 
     <!-- Works Section -->
 
-    <section class="section_works" id="Portoflio">
-      <div class="recent_works_div">
-        <h2>My Recent Works</h2>
-        <img src="images/Indicator.png" alt="divider" />
-      </div>
-
-      <div class="card_row">
-        <article>
-          <div class="placeholder"></div>
-          <div class="card_container1">
-            <h4>Multi-Post Stories Gain+Glory</h4>
-            <ul>
-              <div>
-                <li>Ruby on rails</li>
-              </div>
-              <div>
-                <li>css</li>
-              </div>
-              <div>
-                <li>Javscript</li>
-              </div>
-              <div>
-                <li>html</li>
-              </div>
-            </ul>
-            <div class="div_button">
-              <button class="btn_see_projects btn_effects" type="button" href="#">See Projects</button>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div class="placeholder"></div>
-          <div class="card_container1">
-            <h4>Multi-Post Stories Gain+Glory</h4>
-            <ul>
-              <div>
-                <li>Ruby on rails</li>
-              </div>
-              <div>
-                <li>css</li>
-              </div>
-              <div>
-                <li>Javscript</li>
-              </div>
-              <div>
-                <li>html</li>
-              </div>
-            </ul>
-            <div class="div_button">
-              <button class="btn_see_projects btn_effects" type="button" href="#">See Projects</button>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div class="placeholder"></div>
-          <div class="card_container1">
-            <h4>Multi-Post Stories Gain+Glory</h4>
-            <ul>
-              <div>
-                <li>Ruby on rails</li>
-              </div>
-              <div>
-                <li>css</li>
-              </div>
-              <div>
-                <li>Javscript</li>
-              </div>
-              <div>
-                <li>html</li>
-              </div>
-            </ul>
-            <div class="div_button">
-              <button class="btn_see_projects btn_effects" type="button" href="#">See Projects</button>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div class="placeholder"></div>
-          <div class="card_container1">
-            <h4>Multi-Post Stories Gain+Glory</h4>
-            <ul>
-              <div>
-                <li>Ruby on rails</li>
-              </div>
-              <div>
-                <li>css</li>
-              </div>
-              <div>
-                <li>Javscript</li>
-              </div>
-              <div>
-                <li>html</li>
-              </div>
-            </ul>
-            <div class="div_button">
-              <button class="btn_see_projects btn_effects" type="button" href="#">See Projects</button>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div class="placeholder"></div>
-          <div class="card_container1">
-            <h4>Multi-Post Stories Gain+Glory</h4>
-            <ul>
-              <div>
-                <li>Ruby on rails</li>
-              </div>
-              <div>
-                <li>css</li>
-              </div>
-              <div>
-                <li>Javscript</li>
-              </div>
-              <div>
-                <li>html</li>
-              </div>
-            </ul>
-            <div class="div_button">
-              <button class="btn_see_projects btn_effects" type="button" href="#">See Projects</button>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div class="placeholder"></div>
-          <div class="card_container1">
-            <h4>Multi-Post Stories Gain+Glory</h4>
-            <ul>
-              <div>
-                <li>Ruby on rails</li>
-              </div>
-              <div>
-                <li>css</li>
-              </div>
-              <div>
-                <li>Javscript</li>
-              </div>
-              <div>
-                <li>html</li>
-              </div>
-            </ul>
-            <div class="div_button">
-              <button class="btn_see_projects btn_effects" type="button" href="#">See Projects</button>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
+    <section class="section_works" id="Portoflio"></section>
 
     <!-- About me Section -->
 
@@ -445,8 +295,32 @@
       </a>
     </section>
 
+
     <hr class="rounded" />
 
+
+    <!-- Modal -->
+    <div class="blur invisible">
+      <div class="modal-project">
+        <div class="close"></div>
+        <img class="modal-project" src="" alt="Project Picture" />
+        <div class="dsk-pos">
+          <h3 class="modal-project"></h3>
+          <div class="modal-btn-div modal-dsk">
+            <button type="button" class="modal-btn1 btn_effects">See Live<i class="bi bi-box-arrow-up-right"></i></i></button>
+            <button type="button" class="modal-btn2 btn_effects">See Source<i class="bi bi-github"></i></button>
+          </div>
+        </div>
+        <ul class="modal-project"></ul>
+        <p class="modal-project"></p>
+        <div class="modal-btn-div modal-mobile">
+          <button type="button" class="modal-btn1 btn_effects">See Live<i class="bi bi-box-arrow-up-right"></i></i></button>
+          <button type="button" class="modal-btn2 btn_effects">See Source<i class="bi bi-github"></i></button>
+        </div>
+      </div>
+    </div>
+
     <script src="hamburguer.js"></script>
+    <script src="popup.js"></script>
   </body>
 </html>

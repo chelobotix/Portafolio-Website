@@ -1,3 +1,13 @@
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+}
+
 .h3 {
   color: #3a4a42;
   font-size: 32px !important;
@@ -7,31 +17,25 @@
   text-align: left;
 }
 
-@media only screen and (max-width: 767px) {
-  html {
-    font-family: "Inter", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 16px;
-  }
+.invisible {
+  display: none;
+}
 
+@media only screen and (max-width: 767px) {
   html body {
-    height: 6715px;
-    width: 375px;
     background-color: #fff;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin: auto;
     overflow-x: hidden;
   }
 
   html body header {
     display: flex;
     justify-content: center;
-    width: 375px;
+    width: 100%;
     height: 48px;
     margin-top: 44px;
   }
@@ -58,19 +62,15 @@
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: white;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    overflow: hidden;
+    background-color: #fff;
     margin-left: -100%;
   }
 
   .hamburguer ul {
-    position: absolute;
-    left: 0;
-    top: -27px;
     list-style: none;
-    padding-top: 100px;
-    padding-bottom: 300px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 10px;
   }
 
   .hamburguer li {
@@ -127,8 +127,8 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    height: 626px;
-    width: 375px;
+    height: auto;
+    width: 100%;
     padding-top: 64px;
     background-image: url("images/header-illsutration-mobile@2x.png");
     background-repeat: no-repeat;
@@ -139,6 +139,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   html body .section_headline .headline_container h1 {
@@ -159,7 +160,7 @@
   }
 
   html body .section_headline .headline_container .headline_p_mobile {
-    width: 327px;
+    width: 100%;
     height: 192px;
     font-size: 20px;
     font-weight: 400;
@@ -189,7 +190,7 @@
     justify-content: center;
     align-items: center;
     height: 48px;
-    width: 327px;
+    width: 100%;
     padding-top: 50px;
   }
 
@@ -206,12 +207,10 @@
   }
 
   html body .section_works {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto;
-    justify-content: center;
-    height: 3100px;
-    width: 375px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
     padding-bottom: 64px;
     gap: 58px;
   }
@@ -220,19 +219,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 125px;
-    width: 327px;
+    width: 100%;
     gap: 24px;
+    margin-top: 30px;
   }
 
   html body .section_works .recent_works_div h2 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0;
     text-align: center;
     margin: 0;
     color: #172b4d;
+    width: 100%;
   }
 
   html body .section_works .recent_works_div img {
@@ -242,14 +242,12 @@
   }
 
   html body .section_works .card_row {
-    display: grid;
-    grid-template-rows: auto auto auto auto auto auto;
-    grid-template-columns: auto;
-    justify-content: center;
-    height: 2972px;
-    width: 331px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
     border-radius: 0;
-    padding: 4px 2px 4px 2px;
   }
 
   html body .section_works .card_row article {
@@ -259,14 +257,13 @@
     justify-content: flex-end;
     background: #ebf0ee;
     border: 1px solid #d0d9d4;
-    height: 474px;
-    width: 327px;
+    width: 95%;
+    max-width: 354px;
     border-radius: 8px;
   }
 
   html body .section_works .card_row article .placeholder {
-    height: 474px;
-    width: 327px;
+    width: 100%;
     border-radius: 8px;
     background: #ebf0ee;
   }
@@ -275,8 +272,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 246px;
-    width: 323px;
+    width: 100%;
     border-end-end-radius: 8px;
     background-color: #fff;
   }
@@ -345,18 +341,16 @@
   }
 
   html body .bg_dsk {
-    width: 375px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
   }
 
   html body .section_about_me {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1625px;
-    width: 325px;
+    width: 100%;
     border-radius: 0;
     padding: 0 24px 64px 24px;
     gap: 58px;
@@ -367,7 +361,7 @@
     flex-direction: column;
     align-items: center;
     height: 435px;
-    width: 325px;
+    width: 100%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
@@ -380,8 +374,8 @@
     background-image: url("images/illustration1.png");
     background-repeat: no-repeat;
     background-size: 15%;
-    background-position: 319px 2px;
-    width: 374px;
+    background-position: 100% 2px;
+    width: 105%;
     height: 94px;
     margin-top: 12px;
   }
@@ -406,7 +400,7 @@
   }
 
   html body .section_about_me .article_about_me .bg_about_me2 {
-    width: 374px;
+    width: 100%;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -439,8 +433,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1106px;
-    width: 327px;
+    width: 95vw;
     border-radius: 0;
     padding: 1px;
     list-style-type: none;
@@ -451,7 +444,7 @@
     display: flex;
     flex-direction: column;
     height: 352px;
-    width: 327px;
+    width: 100%;
     border-radius: 8px;
     border: 1px solid #c1c7d0;
     background: #ebf0ee;
@@ -462,7 +455,7 @@
     justify-content: center;
     align-items: center;
     height: 128px;
-    width: 327px;
+    width: 100%;
     border-radius: 0;
   }
 
@@ -482,7 +475,7 @@
     flex-direction: column;
     align-items: center;
     height: 96px;
-    width: 327px;
+    width: 100%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
@@ -490,7 +483,7 @@
 
   html body .section_about_me .card_container2 .li_card_container_about .tittle h3 {
     height: 32px;
-    width: 326px;
+    width: 100%;
     border-radius: nullpx;
     font-size: 24px;
     font-weight: 600;
@@ -530,7 +523,7 @@
   /* section contact form */
 
   html body .bg_dsk2 {
-    width: 375px;
+    width: 100%;
     display: flex;
     justify-content: center;
   }
@@ -540,7 +533,7 @@
     flex-direction: column;
     align-items: center;
     height: 768px;
-    width: 375px;
+    width: 95%;
     border-radius: 0;
     padding: 0 24px 64px 24px;
     gap: 58px;
@@ -552,7 +545,7 @@
 
   .section-contact-form .div-heading-form {
     height: 363px;
-    width: 327px;
+    width: 100%;
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
@@ -570,19 +563,23 @@
     margin-bottom: 0;
   }
 
+  .section-contact-form .div_form_container {
+    width: 100%;
+  }
+
   .section-contact-form .div_form_container .contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 360px;
-    width: 327px;
+    width: 100%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
   }
 
   .section-contact-form .div_form_container .contact-form .div_field {
-    width: 327px;
+    width: 100%;
     border-radius: 0;
     display: flex;
     justify-content: center;
@@ -592,12 +589,12 @@
     border: 0;
     padding: 0;
     height: auto;
-    width: 327px;
+    width: 100%;
   }
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"] {
     height: 44px;
-    width: 320px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-size: 15px;
@@ -629,7 +626,7 @@
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"] {
     height: 44px;
-    width: 320px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-size: 15px;
@@ -651,7 +648,7 @@
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_mob {
     height: 114px;
-    width: 320px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-size: 15px;
@@ -718,7 +715,7 @@
     justify-content: center;
     align-items: flex-start;
     height: 189px;
-    width: 375px;
+    width: 100%;
     border-radius: nullpx;
     margin-top: 20px;
   }
@@ -728,13 +725,13 @@
   }
 
   .email_footer .heading_footer {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0;
     text-align: center;
     color: #42526e;
-    width: 375px;
+    width: 100%;
   }
 
   .rounded {
@@ -761,28 +758,126 @@
   .btn_effects:active {
     background: #008552;
   }
+
+  .blur {
+    background: #c1c7d0;
+    backdrop-filter: blur(5px);
+    padding: 20px 16px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+
+  .blur div.modal-project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #fff;
+    gap: 12px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    overflow: scroll;
+    height: auto;
+  }
+
+  .blur div.modal-project .close {
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .blur div.modal-project img.modal-project {
+    width: 100%;
+  }
+
+  .blur div.modal-project h3.modal-project {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #172b4d;
+    width: 259px;
+    height: 135px;
+    padding-right: 18px;
+  }
+
+  .blur div.modal-project .modal-dsk {
+    display: none;
+  }
+
+  .blur div.modal-project .modal-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .blur div.modal-project .modal-btn-div .modal-btn1,
+  .blur div.modal-project .modal-btn-div .modal-btn2 {
+    background: #36b37f;
+    border-radius: 4px;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .blur div.modal-project .modal-btn-div .bi {
+    padding-left: 15px;
+  }
+
+  .blur div.modal-project ul.modal-project {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    gap: 8px;
+  }
+
+  .blur div.modal-project ul.modal-project .liModal {
+    background-color: #ebf0ee;
+    padding: 8px 12px;
+    color: #3a4a42;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .blur div.modal-project p.modal-project {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: justify;
+  }
 }
 
 /* ******************************media********************* */
 
 @media only screen and (min-width: 768px) {
-  html {
-    font-family: "Inter", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 16px;
-    overflow-x: hidden;
-  }
-
   html body {
-    width: 1440px;
-    height: 3620px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
-    color: #fff;
   }
 
   html body header {
@@ -790,7 +885,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    width: 500px;
     height: 72px;
     margin-top: 0;
   }
@@ -830,7 +925,7 @@
     flex-direction: column;
     align-items: center;
     height: 1033px;
-    width: 1440px;
+    width: 100%;
     border-radius: 0;
     background-image: url("images/Header-llustration-desktop.svg");
     background-position: 38px -46px;
@@ -842,7 +937,7 @@
     flex-direction: column;
     align-items: center;
     height: 756px;
-    width: 920px;
+    width: 100%;
     border-radius: 0;
     padding: 160px 0;
     gap: 24px;
@@ -850,7 +945,7 @@
 
   html body .section_headline .headline_container h1 {
     height: 114px;
-    width: 920px;
+    width: 100%;
     border-radius: nullpx;
     font-size: 48px;
     font-weight: 800;
@@ -869,7 +964,7 @@
   }
 
   html body .section_headline .headline_container .headline_p_desktop {
-    width: 920px;
+    width: 100%;
     height: 96px;
     font-size: 20px;
     font-weight: 400;
@@ -921,6 +1016,7 @@
     flex-direction: column;
     align-items: center;
     gap: 48px;
+    width: 100%;
   }
 
   html body .section_works .recent_works_div {
@@ -947,12 +1043,10 @@
   }
 
   html body .section_works .card_row {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    height: 988px;
-    width: 1171px;
+    width: 80%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
@@ -972,7 +1066,7 @@
 
   html body .section_works .card_row article .placeholder {
     height: 474px;
-    width: 369px;
+    width: 100%;
     border-radius: 8px;
     background: #ebf0ee;
   }
@@ -982,7 +1076,7 @@
     flex-direction: column;
     align-items: center;
     height: 222px;
-    width: 369px;
+    width: 100%;
     border-radius: 8px;
     gap: 16px;
     padding: 16px;
@@ -999,7 +1093,7 @@
     text-align: center;
     color: #172b4d;
     height: 57px;
-    width: 337px;
+    width: 100%;
     border-radius: nullpx;
     margin: 0;
   }
@@ -1007,7 +1101,7 @@
   html body .section_works .card_row article .card_container1 ul {
     display: flex;
     justify-content: center;
-    width: 305px;
+    width: 100%;
     height: 32px;
     border-radius: 0;
     padding: 0;
@@ -1036,7 +1130,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 337px;
+    width: 100%;
     height: 69px;
     border-radius: 0;
     margin-bottom: 16px;
@@ -1062,7 +1156,7 @@
     background-image: url("images/illustration_about_me_desktop.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 1433px;
+    width: 100%;
     height: 770px;
     display: flex;
     flex-direction: column;
@@ -1073,7 +1167,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1171px;
+    width: 100%;
     height: 808px;
     border-radius: 0;
     padding: 80px 0;
@@ -1084,7 +1178,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 920px;
+    width: 100%;
     height: 240px;
     border-radius: 0;
     padding: 0;
@@ -1103,7 +1197,7 @@
   }
 
   html body .bg_dsk .section_about_me .article_about_me p {
-    width: 920px;
+    width: 100%;
     height: 96px;
     font-style: normal;
     font-weight: 400;
@@ -1136,7 +1230,7 @@
   html body .bg_dsk .section_about_me .card_container2 {
     display: flex;
     justify-content: center;
-    width: 1171px;
+    width: 100%;
     height: 360px;
     padding: 4px 8px;
     gap: 24px;
@@ -1148,7 +1242,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 369px;
+    width: 30%;
+    max-width: 369px;
     height: 352px;
     border-radius: 8px;
     border: 1px solid #c1c7d0;
@@ -1160,7 +1255,7 @@
     justify-content: center;
     align-items: center;
     height: 128px;
-    width: 369px;
+    width: 100%;
     border-radius: 0;
     margin-top: 16px;
     margin-bottom: 40px;
@@ -1179,14 +1274,13 @@
   html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .icon .icon_frame img {
     height: 48px;
     width: 48px;
-    padding: 24px 24px;
   }
 
   html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 337px;
+    width: 100%;
     height: 96px;
     border-radius: 0;
     padding: 0;
@@ -1195,7 +1289,7 @@
 
   html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .tittle h3 {
     height: 32px;
-    width: 337px;
+    width: 100%;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -1241,7 +1335,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 46px;
-    width: 1433px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1250,7 +1344,7 @@
   .section-contact-form {
     display: flex;
     justify-content: center;
-    width: 1171px;
+    width: 100%;
     height: 490px;
     border-radius: 0;
     padding: 80px 0;
@@ -1261,7 +1355,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 463px;
+    width: 40%;
     height: 256px;
     border-radius: 0;
     padding: 0;
@@ -1279,19 +1373,23 @@
     margin-bottom: 0;
   }
 
+  .section-contact-form .div_form_container {
+    width: 40%;
+    height: auto;
+  }
+
   .section-contact-form .div_form_container .contact-form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 684px;
-    height: 330px;
+    width: 100%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
   }
 
   .section-contact-form .div_form_container .contact-form .div_field {
-    width: 684px;
+    width: 90%;
     border-radius: 0;
     display: flex;
     justify-content: center;
@@ -1301,12 +1399,12 @@
     border: 0;
     padding: 0;
     height: 48px;
-    width: 684px;
+    width: 100%;
   }
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="text"] {
     height: 48px;
-    width: 684px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-style: normal;
@@ -1338,7 +1436,7 @@
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset input[type="email"] {
     height: 48px;
-    width: 684px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-style: normal;
@@ -1364,7 +1462,7 @@
 
   .section-contact-form .div_form_container .contact-form .div_field fieldset .txtarea_dsk {
     height: 114px;
-    width: 684px;
+    width: 100%;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     font-size: 15px;
@@ -1410,7 +1508,7 @@
   }
 
   .social_media_footer {
-    width: 1440px;
+    width: 100%;
   }
 
   .social_media_footer .hr_dsk {
@@ -1443,5 +1541,119 @@
 
   .btn_effects:active {
     background: #008552;
+  }
+
+  .blur {
+    background: rgba(238, 239, 240, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 16px;
+    box-sizing: border-box;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .blur div.modal-project {
+    width: 920px;
+    min-width: 920px;
+    height: 1083px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #fff;
+    gap: 12px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+  .blur div.modal-project .close {
+    align-self: flex-end;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .blur div.modal-project img.modal-project {
+    width: 100%;
+    border: 1px solid #dfe1e6;
+    border-radius: 8px;
+  }
+
+  .blur div.modal-project .dsk-pos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .blur div.modal-project h3.modal-project {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: left;
+    color: #172b4d;
+    width: 58%;
+  }
+
+  .blur div.modal-project .modal-mobile {
+    display: none;
+  }
+
+  .blur div.modal-project .modal-dsk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: flex-end;
+    justify-self: start;
+    padding-bottom: 40px;
+  }
+
+  .blur div.modal-project .modal-btn-div .modal-btn1,
+  .blur div.modal-project .modal-btn-div .modal-btn2 {
+    border-radius: 4px;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .blur div.modal-project .modal-btn-div .bi {
+    padding-left: 15px;
+  }
+
+  .blur div.modal-project ul.modal-project {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    gap: 8px;
+  }
+
+  .blur div.modal-project ul.modal-project .liModal {
+    background-color: #ebf0ee;
+    padding: 8px 12px;
+    color: #344563;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .blur div.modal-project p.modal-project {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: justify;
+    color: #344563;
   }
 }
