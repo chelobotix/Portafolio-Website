@@ -1,10 +1,4 @@
-/* eslint-disable */
-let formContactData = {
-  name: '',
-  email: '',
-  message: '',
-};
-/* eslint-enable */
+let formContactData = {};
 
 const newForm = document.querySelector('form');
 
@@ -21,11 +15,16 @@ newForm.addEventListener('keyup', (event) => {
 });
 
 window.addEventListener('load', () => {
-  const auxLocalStorage = JSON.parse(localStorage.getItem('formContactData'));
-
+  //localStorage.removeItem('formContactData');
   if (JSON.parse(localStorage.getItem('formContactData')) === null) {
+    formContactData = {
+      name: '',
+      email: '',
+      message: '',
+    };
     localStorage.setItem('formContactData', JSON.stringify(formContactData));
   } else {
+    const auxLocalStorage = JSON.parse(localStorage.getItem('formContactData'));
     newForm.elements.full_name.value = auxLocalStorage.name;
     newForm.elements.email.value = auxLocalStorage.email;
     newForm.elements.message.value = auxLocalStorage.message;
