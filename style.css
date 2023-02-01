@@ -152,7 +152,7 @@ html {
   }
 
   html body .section_headline .headline_container h1 span {
-    color: #36b37e;
+    color: #1e488f;
   }
 
   html body .section_headline .headline_container .headline_p_desktop {
@@ -255,7 +255,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    background: #ebf0ee;
+    background: #ebeff4;
     border: 1px solid #d0d9d4;
     width: 95%;
     max-width: 354px;
@@ -265,7 +265,7 @@ html {
   html body .section_works .card_row article .placeholder {
     width: 100%;
     border-radius: 8px;
-    background: #ebf0ee;
+    background: #ebeff4;
   }
 
   html body .section_works .card_row article .card_container1 {
@@ -304,7 +304,7 @@ html {
     align-items: center;
     border-radius: 4px;
     padding: 8px 12px 8px 12px;
-    background: #ebf0ee;
+    background: #ebeff4;
   }
 
   html body .section_works .card_row article .card_container1 ul div li {
@@ -447,7 +447,7 @@ html {
     width: 100%;
     border-radius: 8px;
     border: 1px solid #c1c7d0;
-    background: #ebf0ee;
+    background: #ebeff4;
   }
 
   html body .section_about_me .card_container2 .li_card_container_about .icon {
@@ -517,7 +517,7 @@ html {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #36b37e;
+    color: #1e488f;
   }
 
   /* section contact form */
@@ -750,17 +750,17 @@ html {
   }
 
   .btn_effects {
-    background: #36b37f;
+    background: #1e488f;
   }
 
   .btn_effects:hover {
-    background: #36b37f;
+    background: #172b4d;
     box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
     border-radius: 4px;
   }
 
   .btn_effects:active {
-    background: #008552;
+    background: #172b4d;
   }
 
   .blur {
@@ -853,7 +853,7 @@ html {
   }
 
   .blur div.modal-project ul.modal-project .liModal {
-    background-color: #ebf0ee;
+    background-color: #ebeff4;
     padding: 8px 12px;
     color: #3a4a42;
     border-radius: 4px;
@@ -932,7 +932,7 @@ html {
     width: 100%;
     border-radius: 0;
     background-image: url("images/Header-llustration-desktop.svg");
-    background-position: 38px -46px;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
@@ -960,7 +960,7 @@ html {
   }
 
   html body .section_headline .headline_container h1 span {
-    color: #36b37e;
+    color: #1e488f;
   }
 
   html body .section_headline .headline_container .headline_p_mobile {
@@ -1061,7 +1061,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    background: #ebf0ee;
+    background: #ebeff4;
     border: 1px solid #d0d9d4;
     height: 474px;
     width: 369px;
@@ -1069,17 +1069,17 @@ html {
   }
 
   html body .section_works .card_row article .placeholder {
-    height: 474px;
     width: 100%;
     border-radius: 8px;
-    background: #ebf0ee;
+    background: #ebeff4;
+    padding: 0 5px;
   }
 
   html body .section_works .card_row article .card_container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 222px;
+    height: 200px;
     width: 100%;
     border-radius: 8px;
     gap: 16px;
@@ -1117,7 +1117,7 @@ html {
     align-items: center;
     border-radius: 4px;
     padding: 8px 12px 8px 12px;
-    background: #ebf0ee;
+    background: #ebeff4;
   }
 
   html body .section_works .card_row article .card_container1 ul div li {
@@ -1251,7 +1251,7 @@ html {
     height: 352px;
     border-radius: 8px;
     border: 1px solid #c1c7d0;
-    background: #ebf0ee;
+    background: #ebeff4;
   }
 
   html body .bg_dsk .section_about_me .card_container2 .li_card_container_about .icon {
@@ -1329,7 +1329,7 @@ html {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #36b37e;
+    color: #1e488f;
   }
 
   /* section contact form */
@@ -1544,15 +1544,15 @@ html {
   }
 
   .btn_effects {
-    background: #36b37f;
+    background: #1e488f;
   }
 
   .btn_effects:hover {
-    background: #36b37f;
+    background: #172b4d;
   }
 
   .btn_effects:active {
-    background: #008552;
+    background: #172b4d;
   }
 
   .blur {
@@ -1649,7 +1649,7 @@ html {
   }
 
   .blur div.modal-project ul.modal-project .liModal {
-    background-color: #ebf0ee;
+    background-color: #ebeff4;
     padding: 8px 12px;
     color: #344563;
     border-radius: 4px;

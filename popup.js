@@ -1,33 +1,33 @@
 const recentWorksObj = [
   {
     id: 'project1',
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Ruby on Rails', 'css', 'Javascript', 'html'],
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloremque ducimus reiciendis dignissimos asperiores quis maiores atque, impedit delectus id laboriosam repellendus sit sed placeat, velit tenetur! Enim, saepe aliquid praesentium possimus facere qui corrupti velit maxime dolorum reprehenderit ullam minus, assumenda repudiandae aspernatur cupiditate cum esse commodi nam perspiciatis!',
-    imageURL_desktop: 'images/works-dsk.png',
-    imageURL_mobile: 'images/work-mobile.png',
-    liveDemo: 'https://chelobotix.github.io/Portafolio-Website/',
-    repository: 'https://github.com/chelobotix/Portafolio-Website',
+    name: 'Protoje Munich Reggae Concert',
+    technologies: ['Html', 'Css', 'Javascript'],
+    description: 'A fictitious Concert web page to demonstrate my skills in Html, Css and DOM manipulation with Javascript',
+    imageURL_desktop: 'images/capstoneProtojeConcert.jpg',
+    imageURL_mobile: 'images/capstoneProtojeConcert.jpg',
+    liveDemo: 'https://chelobotix.github.io/Capstone-project-Protoje-concert/',
+    repository: 'https://github.com/chelobotix/Capstone-project-Protoje-concert',
   },
   {
     id: 'project2',
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Ruby on Rails', 'css', 'Javascript', 'html'],
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloremque ducimus reiciendis dignissimos asperiores quis maiores atque, impedit delectus id laboriosam repellendus sit sed placeat, velit tenetur! Enim, saepe aliquid praesentium possimus facere qui corrupti velit maxime dolorum reprehenderit ullam minus, assumenda repudiandae aspernatur cupiditate cum esse commodi nam perspiciatis!',
-    imageURL_desktop: 'images/works-dsk.png',
-    imageURL_mobile: 'images/work-mobile.png',
-    liveDemo: 'https://chelobotix.github.io/Portafolio-Website/',
-    repository: 'https://github.com/chelobotix/Portafolio-Website',
+    name: 'Awesome Books',
+    technologies: ['Html', 'Css', 'Javascript', 'SPA'],
+    description: 'A SPA web app to add Books developed in Javaascript using modules',
+    imageURL_desktop: 'images/awesomeBook.jpg',
+    imageURL_mobile: 'images/awesomeBook.jpg',
+    liveDemo: 'https://chelobotix.github.io/Awesome_Book/',
+    repository: 'https://github.com/chelobotix/Awesome_Book',
   },
   {
     id: 'project3',
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Ruby on Rails', 'css', 'Javascript', 'html'],
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloremque ducimus reiciendis dignissimos asperiores quis maiores atque, impedit delectus id laboriosam repellendus sit sed placeat, velit tenetur! Enim, saepe aliquid praesentium possimus facere qui corrupti velit maxime dolorum reprehenderit ullam minus, assumenda repudiandae aspernatur cupiditate cum esse commodi nam perspiciatis!',
-    imageURL_desktop: 'images/works-dsk.png',
-    imageURL_mobile: 'images/work-mobile.png',
-    liveDemo: 'https://chelobotix.github.io/Portafolio-Website/',
-    repository: 'https://github.com/chelobotix/Portafolio-Website',
+    name: 'To Do List',
+    technologies: ['Html', 'Css', 'Javascript', 'WebPack 5'],
+    description: 'To Do List it\'s a Task manager app with CRUD implemetation',
+    imageURL_desktop: 'images/toDoList.jpg',
+    imageURL_mobile: 'images/toDoList.jpg',
+    liveDemo: 'https://chelobotix.github.io/To-Do-List-Barrenechea/dist/',
+    repository: 'https://github.com/chelobotix/To-Do-List-Barrenechea',
   },
   {
     id: 'project4',
@@ -140,13 +140,13 @@ function createModal(index) {
 
   btn1Modal.forEach((btn) => {
     btn.addEventListener('click', () => {
-      window.location.href = recentWorksObj[index].liveDemo;
+      window.open(recentWorksObj[index].liveDemo, '_blank');
     });
   });
 
   btn2Modal.forEach((btn) => {
     btn.addEventListener('click', () => {
-      window.location.href = recentWorksObj[index].repository;
+      window.open(recentWorksObj[index].repository, '_blank');
     });
   });
 
